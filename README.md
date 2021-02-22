@@ -1,2 +1,1 @@
-# community-guidelines
-Community Guidelines
+# Contribution Guidelines
