@@ -2,4 +2,5 @@
 
 There are two main methods of contribution ...
 
-- [Contributing feedback via issues](feed
+- [Contributing feedback via issues](feedback.md)
+- [Contributing content via pull requests](content.md)
