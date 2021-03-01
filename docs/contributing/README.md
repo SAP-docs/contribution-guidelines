@@ -20,7 +20,7 @@ This means that in order to contribute, you will need a GitHub account. Read mor
 
 As mentioned earlier, there are two ways in which you can contribute to SAP documentation - either by providing feedback, or by offering a contribution of content.
 
-### Feedback
+### Providing feedback
 
 We value feedback on our documentation, and want to make it possible for you to do that in a simple but structured way.
 
@@ -39,11 +39,55 @@ So, please ensure that when creating a new feedback issue, that you add your fee
 
 For more details about making a feedback contribution, please see [Contributing feedback via issues](feedback.md).
 
+### Contributing content 
 
-- [Contributing content via pull requests](content.md)
+In some cases, we want to make it possible for you to contribute by providing small amounts of content. We're not asking or expecting you to provide large amounts of content; rather, we're opening up the opportunity for you to to contribute to SAP documentation by offering content such as:
+
+- corrections to typos that you spot
+- the rewording of a phrase or sentence for clarity
+- the addition of information or context to qualify or increase accuracy
+
+If you spot something that's missing, incorrect, lacking clarity or requiring more context, you can of course provide feedback via an issue, and ask us to address it.
+
+But with content contribution, you have the opportunity to collaborate with us by adding that missing information, correcting the mistake, or providing clarification.
+
+Where content contribution is available, you'll see a link like this:
+
+![Content contribution link](assets/content-contribution-link.png)
+
+If you're already familiar with collaboration by means of pull requests on GitHub, then this process will be familiar to you. If not, don't worry, it's straightforward, and the GitHub workflow infrastructure, combined with how we use it for collaboration on SAP documentation, will make the process easy for you to follow.
+
+Briefly, here's what a typical pull request based content contribution workflow will entail. Note that you start out on the SAP Help Portal, but are taken to the corresponding SAP documentation repository, within the [SAP-docs][sap-docs-org] organization on GitHub, where most of the collaboration workflow steps will take place. Note also that some details have been omitted here for brevity but you can find those details in [Contributing content via pull requests](content.md).
+
+**In the SAP Help Portal**
+
+- Your starting point is in the SAP Help Portal, and you're looking at a page of SAP documentation.
+
+- You spot something in the page that you think would benefit from a minor modification or addition.
+
+- You check for, find, and follow the link that allows you to make a content contribution.
+
+**In GitHub**
+
+- You're taken to the source of the SAP documentation page, on GitHub, where you can confirm that this is indeed the page to which you want to make a contribution.
+
+- You use the "✎ Edit" link to launch the browser-based editor for that page, and make your contribution.
+
+- Once you're happy with your contribution, and have saved the changes you've made, you'll be guided in creating a pull request, which is the unit of conversation that combines the actual details of your content contribution offering, with the conversation that will then take place between you and the team responsible for the SAP documentation page in question.
+
+- During that conversation, various checks will be made, some automated, some human-based, to confirm whether the contribution is appropriate and will add value. A successful contribution will be merged into the SAP documentation page source and the pull request is then closed.
+
+**Back in the SAP Help Portal**
+
+- For those content contributions that are successful, the changes will eventually be merged back into the source repository in the [SAP-docs][sap-docs-org] organization. From there, it is only a matter of time before those changes then also appear on the page in the SAP Help Portal.
+
+- Congratulations - you've just collaborated with us and made a valuable contribution to SAP documentation. Thank you!
+
+For more details about making a content contribution, please see [Contributing content via pull requests](content.md).
 
 
 
 [github-issues]: https://guides.github.com/features/issues/
 [github-pull-requests]: https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
 [github-signup]: https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account
+[sap-docs-org]: https://github.com/SAP-docs/
