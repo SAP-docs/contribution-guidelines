@@ -9,5 +9,7 @@
 * [How to contribute content](content-contribution/)
   * [The overall process](content-contribution/overall-process.md)
   * [What you need to know](content-contribution/need-to-know.md)
+  * [What makes a good contribution](content-contribution/good-contribution.md)
   * [Markdown basics](content-contribution/markdown-basics.md)
+  * [Use of SAP terminology](content-contribution/sap-terminology.md)
   * [Additional resources](content-contribution/additional-resources.md)
