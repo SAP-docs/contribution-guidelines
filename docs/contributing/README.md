@@ -32,8 +32,8 @@ Following the link will take you to the "New Issue" page in GitHub, specifically
 
 Note that there will be some content automatically added to the main feedback edit area; this is to provide us with a way of associating the feedback you are providing with the appropriate page in the documentation. This is very important in two respects:
 
-1. you should not remove any of this information
-1. the implication is that feedback should be for a specific SAP documentation page, rather than generally
+1. You should not remove any of this information.
+1. The implication is that feedback should be for a specific SAP documentation page, rather than generally.
 
 So, please ensure that when creating a new feedback issue, that you add your feedback to the issue without removing any of the technical information that has been put there automatically, and limit your feedback to the content in the page for which you are providing feedback.
 
@@ -43,9 +43,9 @@ For more details about making a feedback contribution, please see [Contributing 
 
 In some cases, we want to make it possible for you to contribute by providing small amounts of content. We're not asking or expecting you to provide large amounts of content; rather, we're opening up the opportunity for you to to contribute to SAP documentation by offering content such as:
 
-- corrections to typos that you spot
-- the rewording of a phrase or sentence for clarity
-- the addition of information or context to qualify or increase accuracy
+- Corrections to typos that you spot.
+- The rewording of a phrase or sentence for clarity.
+- The addition of information or context to qualify or increase accuracy.
 
 If you spot something that's missing, incorrect, lacking clarity or requiring more context, you can of course provide feedback via an issue, and ask us to address it.
 
@@ -61,27 +61,27 @@ Briefly, here's what a typical pull request based content contribution workflow 
 
 **In the SAP Help Portal**
 
-- Your starting point is in the SAP Help Portal, and you're looking at a page of SAP documentation.
+1. Your starting point is in the SAP Help Portal, and you're looking at a page of SAP documentation.
 
-- You spot something in the page that you think would benefit from a minor modification or addition.
+2. You spot something in the page that you think would benefit from a minor modification or addition.
 
-- You check for, find, and follow the link that allows you to make a content contribution.
+3. You check for, find, and follow the link that allows you to make a content contribution.
 
 **In GitHub**
 
-- You're taken to the source of the SAP documentation page, on GitHub, where you can confirm that this is indeed the page to which you want to make a contribution.
+4. You're taken to the source of the SAP documentation page, on GitHub, where you can confirm that this is indeed the page to which you want to make a contribution.
 
-- You use the "✎ Edit" link to launch the browser-based editor for that page, and make your contribution.
+5. You use the "✎ Edit" link to launch the browser-based editor for that page, and make your contribution.
 
-- Once you're happy with your contribution, and have saved the changes you've made, you'll be guided in creating a pull request, which is the unit of conversation that combines the actual details of your content contribution offering, with the conversation that will then take place between you and the team responsible for the SAP documentation page in question.
+6. Once you're happy with your contribution, and have saved the changes you've made, you'll be guided in creating a pull request, which is the unit of conversation that combines the actual details of your content contribution offering, with the conversation that will then take place between you and the team responsible for the SAP documentation page in question.
 
-- During that conversation, various checks will be made, some automated, some human-based, to confirm whether the contribution is appropriate and will add value. A successful contribution will be merged into the SAP documentation page source and the pull request is then closed.
+7. During that conversation, various checks will be made, some automated, some human-based, to confirm whether the contribution is appropriate and will add value. A successful contribution will be merged into the SAP documentation page source and the pull request is then closed.
 
 **Back in the SAP Help Portal**
 
-- For those content contributions that are successful, the changes will eventually be merged back into the source repository in the [SAP-docs][sap-docs-org] organization. From there, it is only a matter of time before those changes then also appear on the page in the SAP Help Portal.
+8. For those content contributions that are successful, the changes will eventually be merged back into the source repository in the [SAP-docs][sap-docs-org] organization. From there, it is only a matter of time before those changes then also appear on the page in the SAP Help Portal.
 
-- Congratulations - you've just collaborated with us and made a valuable contribution to SAP documentation. Thank you!
+9. Congratulations - you've just collaborated with us and made a valuable contribution to SAP documentation. Thank you!
 
 For more details about making a content contribution, please see [Contributing content via pull requests](content.md).
 
