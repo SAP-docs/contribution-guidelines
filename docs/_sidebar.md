@@ -1,4 +1,4 @@
-- [Contributing to SAP documentation](contributing/)
+- [Contributing to SAP documentation](contributing/README.md)
   - [Feedback via issues](contributing/feedback.md)
   - [Content contribution via pull requests](contributing/content.md)
 - [The Contributor License Agreement process](cla.md)
