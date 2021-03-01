@@ -6,7 +6,7 @@ These are general contribution guidelines. There may be further guidelines that 
 
 Here's what you can find in these guidelines:
 
-- [Contributing to SAP Documentation](contributing/)
+- [Contributing to SAP documentation](contributing/)
   - [Content contribution via pull requests](contributing/content.md)
   - [Feedback via issues](contributing/feedback.md)
 - [The overall flow](flow.md)
