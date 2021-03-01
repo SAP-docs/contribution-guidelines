@@ -1,4 +1,5 @@
-# Ways to contribute
+# Contributing to SAP Documentation
+
 
 There are two main methods of contribution ...
 
