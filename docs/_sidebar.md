@@ -1,7 +1,6 @@
 - [Contributing to SAP documentation](contributing/)
   - [Feedback via issues](contributing/feedback.md)
   - [Content contribution via pull requests](contributing/content.md)
-- [The overall flow](flow.md)
 - [The Contributor License Agreement process](cla.md)
 - [What to expect](what-to-expect.md)
 - [Contribution recognition](recognition.md)
