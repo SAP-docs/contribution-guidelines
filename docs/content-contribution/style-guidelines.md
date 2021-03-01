@@ -16,13 +16,13 @@ When it comes to [links in markdown][links], we prefer the "reference" approach 
 This is the "inline" approach, where the URL follows the link text directly:
 
 ```markdown
-See the [SAP Community](https://community.sap.com) for more information.
+See [SAP Community](https://community.sap.com) for more information.
 ```
 
 The preferred "reference" approach looks like this:
 
 ```markdown
-See the [SAP Community](sapcommunity) for more information.
+See [SAP Community](sapcommunity) for more information.
 
 [sapcommunity]: https://community.sap.com
 ```

@@ -1,10 +1,10 @@
 # Contribution recognition
 
-We want to recognize valuable contributions. In the [SAP Community][sap-community] there is a wide variety of [missions and badges][missions-badges] and this is valuable community contributions to documentation will also be recognized.
+We want to recognize valuable contributions. In [SAP Community][sap-community] there is a wide variety of [missions and badges][missions-badges] and this is valuable community contributions to documentation will also be recognized.
 
 ## Badges
 
-In the [SAP Community][sap-community] there are two badges relating to community contributions to documentation.
+In [SAP Community][sap-community] there are two badges relating to community contributions to documentation.
 
 There is a "Documentation feedback contribution" badge, which will be awarded if you have contributed feedback in the form of an issue, which has subsequently led to an improvement in the documentation.
 
@@ -12,7 +12,7 @@ There is also a "Documentation content contribution" badge, which will be awarde
 
 ## Linking profiles
 
-While recognition is made in the [SAP Community][sap-community], the contribution activities themselves take place in [GitHub][github]. This means that in order to award a badge, a link is required that associates your GitHub profile with your SAP Community profile. This is so that qualifying contribution activities in GitHub can be recognized correctly for you in the SAP Community.
+While recognition is made in [SAP Community][sap-community], the contribution activities themselves take place in [GitHub][github]. This means that in order to award a badge, a link is required that associates your GitHub profile with your SAP Community profile. This is so that qualifying contribution activities in GitHub can be recognized correctly for you in SAP Community.
 
 It is your responsibility to create and maintain this link, as you are in control of your GitHub identity. The process is straightforward, and involves the creation of a public repository on GitHub named `sap-community-profile`, with the URL of your SAP Community profile in the description of that repository.
 
@@ -36,7 +36,7 @@ Once your repository is created, it will look something like this:
 
 Ensure that the two critical aspects (highlighted) are correct for your repository.
 
-Once the repository exists and is in the form described here, recognition in the SAP Community will be possible.
+Once the repository exists and is in the form described here, recognition in SAP Community will be possible.
 
 [sap-community]: https://community.sap.com
 [missions-badges]: https://community.sap.com/resources/missions-badges
