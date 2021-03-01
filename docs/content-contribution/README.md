@@ -3,4 +3,5 @@
 - [The overall process](overall-process.md)
 - [What you need to know](need-to-know.md)
 - [Markdown basics](markdown-basics.md)
+- [Style guidelines](style-guidelines.md)
 - [Additional resources](additional-resources.md)
