@@ -11,7 +11,7 @@ This section describes approaches to Markdown style that are not mandatory but w
 
 ### Links
 
-When it comes to [links in markdown][links], we prefer the "reference" approach for absolute URLs. Absolute URLs are ones which normally contain a scheme (e.g. `https://`) and a fully qualified doman name (e.g. `help.sap.com`) followed by path info and other optional URL components.
+For absolute URLs, we prefer the "reference" approach for [links in markdown][links]. Absolute URLs are ones which normally contain a scheme (e.g. `https://`) and a fully qualified domain name (e.g. `help.sap.com`) followed by path info and other optional URL components.
 
 This is the "inline" approach, where the URL follows the link text directly:
 
