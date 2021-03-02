@@ -2,13 +2,13 @@
 
 [Markdown][markdown] is a lightweight markup language that is simple enough to master and can be edited in any text editor. In order to make it as easy as possible for you to collaborate with us, and offer contributions of content, the SAP documentation sources are presented in Markdown.
 
-## Learning from examples
+## Learning from examples
 
 In addition to being simple enough to master, Markdown is also relatively easy to read. This has immediate benefits; perhaps most importantly for collaborating with us on documentation is that when editing the source for a particular page of SAP documentation, you'll be able to view the Markdown source directly and this helps enormously because you can see how the different Markdown elements are used, and where, and these can become examples for you to build upon.
 
 In other words, when making a content contribution, take some time to look around the entire Markdown file, and get a feel for how Markdown is used.
 
-## A quick introduction
+## A quick introduction
 
 There are many introductory and advanced Markdown guides that are freely available, and we recommend that you take a look at some of those (see the appropriate section later in this document).
 
@@ -16,7 +16,7 @@ Nonetheless we thought it would be helpful to give a quick introduction, so you 
 
 Markdown has syntax to mark up various aspects of a document, aspects such as text emphasis and usage, lists, links, images and more. It also supports the appropriate rendering of programming and configuration languages, especially useful for showing examples and snippets.
 
-### Text emphasis and usage
+### Text emphasis and usage
 
 Headings in a document are introduced by `#` characters at the start of the line. The more characters, the lower the level of heading.
 
