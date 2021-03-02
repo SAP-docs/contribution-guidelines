@@ -18,7 +18,7 @@ Following these guidelines will make collaboration flow more smoothly and produc
 
 - Be patient with the contribution process. We want this to be a success and the start of a fruitful and open collaboration on SAP documentation generally, and for that, we need to travel these early paths together carefully. See [What to expect](what-to-expect.md) for more information.
 
-## Don't
+## Don't
 
 It's just as important to know what not to do, so here are some suggestions that should help.
 
