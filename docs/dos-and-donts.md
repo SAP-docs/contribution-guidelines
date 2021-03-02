@@ -18,6 +18,8 @@ Following these guidelines will make collaboration flow more smoothly and produc
 
 - Be patient with the contribution process. We want this to be a success and the start of a fruitful and open collaboration on SAP documentation generally, and for that, we need to travel these early paths together carefully. See [What to expect](what-to-expect.md) for more information.
 
+- Remember that this collaborative process is focused on making SAP documentation the best it can be, and nothing else. It is not for raising issues about functionality, or problems in use or deployment of what's described in the documentation.
+
 ## Don't
 
 It's just as important to know what not to do, so here are some suggestions that should help.
@@ -26,6 +28,7 @@ It's just as important to know what not to do, so here are some suggestions that
 
 - Don't use feedback, in the form of issues, to ask questions on the documentation, or to report problems with the product, service or tool being described. There are other more appropriate channels for this (such as the  the [SAP Community Q&A][sap-community-q&a] and the [SAP Support Portal][sap-support-portal]).
 
+- Don't be despondent if your contribution is not accepted or actioned. While all contributions will be assessed, it's likely that not all will be deemed appropriate, and that's fine. We value your collaboration and appreciate your efforts very much, and certainly would not want you to think that just because one particular contribution didn't make it through to being acted upon, that there was no point in further collaboration. Making good documentation great is an iterative process.
 
 
 [sap-support-portal]: https://support.sap.com/
