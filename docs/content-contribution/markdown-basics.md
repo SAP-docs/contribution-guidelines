@@ -90,4 +90,12 @@ There's also the single backtick variant, which can be used mid-line to render s
 Check out the `CONTRIBUTING.md` file for more information.
 ```
 
+## Further reading
+
+[The Markdown Guide][markdownguide] is a free and open source reference guide. In addition, we recommend you take a look at [Mastering Markdown][github-mastering-markdown], one of the [GitHub Guides][github-guides].
+
+
 [markdown]: https://en.wikipedia.org/wiki/Markdown
+[markdownguide]: https://www.markdownguide.org/
+[github-guides]: https://guides.github.com/
+[github-guides-mastering-markdown]: https://guides.github.com/features/mastering-markdown/
