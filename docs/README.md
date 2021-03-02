@@ -14,7 +14,6 @@ Here's what you can find in these guidelines:
 - [Dos and don'ts](dos-and-donts.md)
 - [How to contribute content](content-contribution/)
   - [The overall process](content-contribution/overall-process.md)
-  - [What you need to know](content-contribution/need-to-know.md)
   - [What makes a good contribution](content-contribution/good-contribution.md)
   - [Markdown basics](content-contribution/markdown-basics.md)
   - [Use of SAP terminology](content-contribution/sap-terminology.md)

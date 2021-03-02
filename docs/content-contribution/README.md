@@ -3,7 +3,6 @@
 In [Contributing to SAP documentation](contributing.md), there is an overview of contribution, including a high level description of contributing content via a pull request. The sections here are designed to provide you with more information and guidance for such contributions.
 
 - [The overall process](overall-process.md)
-- [What you need to know](need-to-know.md)
 - [What makes a good contribution](good-contribution.md)
 - [Markdown basics](markdown-basics.md)
 - [Style guidelines](style-guidelines.md)
