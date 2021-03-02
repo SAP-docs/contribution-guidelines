@@ -6,19 +6,16 @@ These are general contribution guidelines. There may be further guidelines that 
 
 Here's what you can find in these guidelines:
 
-- [The overall flow](flow.md)
-- [Ways to contribute](ways-to-contribute/)
-  - [Content contribution via pull requests](ways-to-contribute/content.md)
-  - [Feedback via issues](ways-to-contribute/feedback.md)
+- [Contributing to SAP documentation](contributing.md)
 - [The Contributor License Agreement process](cla.md)
 - [What to expect](what-to-expect.md)
+- [Contribution recognition](recognition.md)
 - [Code of conduct](code-of-conduct.md)
 - [Dos and don'ts](dos-and-donts.md)
 - [How to contribute content](content-contribution/)
   - [The overall process](content-contribution/overall-process.md)
   - [What you need to know](content-contribution/need-to-know.md)
+  - [What makes a good contribution](content-contribution/good-contribution.md)
   - [Markdown basics](content-contribution/markdown-basics.md)
+  - [Use of SAP terminology](content-contribution/sap-terminology.md)
   - [Additional resources](content-contribution/additional-resources.md)
-- [How to contribute feedback](feedback-contribution/)
-- [Contribution recognition](recognition.md)
-
