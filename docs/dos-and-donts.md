@@ -30,6 +30,7 @@ It's just as important to know what not to do, so here are some suggestions that
 
 - Don't be despondent if your contribution is not accepted or actioned. While all contributions will be assessed, it's likely that not all will be deemed appropriate, and that's fine. We value your collaboration and appreciate your efforts very much, and certainly would not want you to think that just because one particular contribution didn't make it through to being acted upon, that there was no point in further collaboration. Making good documentation great is an iterative process.
 
+- Don't be discouraged if someone disagrees with your viewpoint. While SAP documentation strives to be objective, there are many places in the documentation process that are subjective, and open to debate. When there is a disagreement, remember that it is an opportunity for all involved to learn.
 
 [sap-support-portal]: https://support.sap.com/
 [sap-community-q&a]: https://answers.sap.com/
