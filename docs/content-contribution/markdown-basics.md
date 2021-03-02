@@ -92,7 +92,7 @@ Check out the `CONTRIBUTING.md` file for more information.
 
 ## Further reading
 
-[The Markdown Guide][markdownguide] is a free and open source reference guide. In addition, we recommend you take a look at [Mastering Markdown][github-mastering-markdown], one of the [GitHub Guides][github-guides].
+[The Markdown Guide][markdownguide] is a free and open source reference guide. In addition, we recommend you take a look at [Mastering Markdown][github-guides-mastering-markdown], one of the [GitHub Guides][github-guides].
 
 
 [markdown]: https://en.wikipedia.org/wiki/Markdown
