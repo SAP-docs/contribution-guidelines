@@ -18,4 +18,5 @@ Here's what you can find in these guidelines:
   - [What makes a good contribution](content-contribution/good-contribution.md)
   - [Markdown basics](content-contribution/markdown-basics.md)
   - [Use of SAP terminology](content-contribution/sap-terminology.md)
+  - [Style guidelines](content-contribution/style-guidelines.md)
   - [Additional resources](content-contribution/additional-resources.md)
