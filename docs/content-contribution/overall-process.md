@@ -12,7 +12,7 @@ You check to see if that particular page is open for collaboration. Whether it i
 
 You see that the appropriate link is available on that particular page, offering the chance to collaborate by contributing content. This link will look something like the one highlighted here:
 
-![Content contribution link](assets/content-contribution-link.png)
+![Content contribution link](../assets/content-contribution-link.png)
 
 Great, you're all set to start.
 
