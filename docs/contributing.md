@@ -57,7 +57,7 @@ Where content contribution is available, you'll see a link like this:
 
 If you're already familiar with pull request based collaboration on GitHub, then this process will be familiar to you. If not, don't worry, it's straightforward, and the GitHub workflow infrastructure, combined with how we use it for collaboration on SAP documentation, will make the process easy for you to follow.
 
-Briefly, here's what a typical pull request based content contribution workflow will entail. Note that you start out on the SAP Help Portal, but are taken to the corresponding SAP documentation repository, within the [SAP-docs][sap-docs-org] organization on GitHub, where most of the collaboration workflow steps will take place. Note also that some details have been omitted here for brevity but you can find those details in [How to contribute content](content/README.md).
+Briefly, here's what a typical pull request based content contribution workflow will entail. Note that you start out on the SAP Help Portal, but are taken to the corresponding SAP documentation repository, within the [SAP-docs][sap-docs-org] organization on GitHub, where most of the collaboration workflow steps will take place. Note also that some details have been omitted here for brevity but you can find those details in [How to contribute content](content-contribution/README.md).
 
 **In the SAP Help Portal**
 

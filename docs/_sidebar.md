@@ -4,7 +4,7 @@
 - [Contribution recognition](/recognition.md)
 - [Code of conduct](/code-of-conduct.md)
 - [Dos and don'ts](/dos-and-donts.md)
-- [How to contribute content](/content-contribution/)
+- [How to contribute content](/content-contribution/README.md)
   - [The overall process](/content-contribution/overall-process.md)
   - [What makes a good contribution](/content-contribution/good-contribution.md)
   - [Markdown basics](/content-contribution/markdown-basics.md)
