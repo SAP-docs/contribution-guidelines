@@ -10,7 +10,7 @@ There is a "Documentation feedback contribution" badge, which will be awarded if
 
 There is also a "Documentation content contribution" badge, which will be awarded if you have contributed content via the pull request method. In order to qualify, that pull request has to have been merged and your content contribution included in the documentation.
 
-## Linking profiles
+## Linking profiles
 
 While recognition is made in [SAP Community][sap-community], the contribution activities themselves take place in [GitHub][github]. This means that in order to award a badge, a link is required that associates your GitHub profile with your SAP Community profile. This is so that qualifying contribution activities in GitHub can be recognized correctly for you in SAP Community.
 
