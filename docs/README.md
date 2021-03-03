@@ -18,4 +18,3 @@ Here's what you can find in these guidelines:
   - [Markdown basics](content-contribution/markdown-basics.md)
   - [Use of SAP terminology](content-contribution/sap-terminology.md)
   - [Style guidelines](content-contribution/style-guidelines.md)
-  - [Additional resources](content-contribution/additional-resources.md)

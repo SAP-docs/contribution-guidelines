@@ -7,4 +7,3 @@ In [Contributing to SAP documentation](contributing.md), there is an overview of
 - [Markdown basics](markdown-basics.md)
 - [Style guidelines](style-guidelines.md)
 - [Use of SAP terminology](sap-terminology.md)
-- [Additional resources](additional-resources.md)
