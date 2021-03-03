@@ -8,7 +8,7 @@ In addition to these ideas, you may also wish to browse through existing pull re
 
 <dt>A well-documented pull request</dt>
 <dd>
-_Convey your intentions clearly with a good title and explanation in your pull request._
+Convey your intentions clearly with a good title and explanation in your pull request.
 
 Content contribution is not just about what you send in the commit or commits that you include in your pull request. It's just as much about how you describe the change, in both the title and the body of the pull request.
 
@@ -17,7 +17,7 @@ Use the title to describe what the contribution is for, what it does. Use the bo
 
 <dt>Focused modifications</dt>
 <dd>
-_Make sure what you submit is limited to and focused only upon exactly what you want to change._
+Make sure what you submit is limited to and focused only upon exactly what you want to change.
 
 Sometimes, while making a modification, it's tempting to tweak and tune other parts of the content. For example, you might see that a couple of paragraphs nearby might benefit from some extra whitespace between them.
 
@@ -28,7 +28,7 @@ After making your changes and saving them, review the content of the commit(s) t
 
 <dt>Limited to a single page</dt>
 <dd>
-_Limit your content contribution to a single page._
+Limit your content contribution to a single page.
 
 A change or addition across a number of different pages for a given topic is going to be more complex to describe and also implement, and is not an example of an ideal and simple contribution.
 
