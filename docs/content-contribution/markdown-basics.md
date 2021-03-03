@@ -4,9 +4,9 @@
 
 ## Learning from examples
 
-In addition to being simple enough to master, Markdown is also relatively easy to read. This has immediate benefits; perhaps most importantly for collaborating with us on documentation is that when editing the source for a particular page of SAP documentation, you'll be able to view the Markdown source directly and this helps enormously because you can see how the different Markdown elements are used, and where, and these can become examples for you to build upon.
+Even more important than being simple to master, Markdown is also easy to read. This has immediate benefits. Perhaps most importantly for collaborating with us on documentation is that when editing the source for a particular page of SAP documentation, you'll be able to view the Markdown source directly and this helps enormously because you can see how the different Markdown elements are used, and where, and these can become examples for you to build upon.
 
-In other words, when making a content contribution, take some time to look around the entire Markdown file, and get a feel for how Markdown is used.
+In other words, when making a content contribution, take some time to look around the entire Markdown file, and get a feel for how different Markdown elements are used.
 
 ## A quick introduction
 
@@ -77,7 +77,7 @@ Check out the [SAP Community missions and badges][missions-and-badges] ...
 Images are marked up in a similar fashion, the difference is that the markup is prefixed with a `!` character:
 
 ```markdown
-![A screenshot showing the possible selections](selections-screenshot.png).
+![A screenshot showing the possible selections](selections-screenshot.png)
 ```
 
 ### Language rendering
