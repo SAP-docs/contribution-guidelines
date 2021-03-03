@@ -24,7 +24,7 @@ That initial assessment will usually bring about the assignment of appropriate [
 
 Early on, the issue or pull request may also undergo checks. Those early checks will usually be automated, and are to provide simple confirmations that basic contribution requirements have been met.
 
-## Detailed assessment
+## Detailed assessment
 
 Once the initial assessment has taken place, a member of the appropriate SAP documentation team will take a look, to assess whether the contribution can be accepted.
 
