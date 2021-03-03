@@ -6,4 +6,7 @@ Before your first contribution to a documentation repository, you will be asked 
 
 The DCO acceptance can be done within the pull request itself; look out for the CLA assistant that will guide you through the simple process.
 
-SAP uses the standard DCO text of the Linux Foundation.
+SAP uses the [standard DCO text of the Linux Foundation][dco].
+
+
+[dco]: https://developercertificate.org/
