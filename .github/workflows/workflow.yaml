@@ -1,0 +1,11 @@
+name: Test Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-job:
+    runs-on: [ self-hosted ]
+    steps:
+    - uses: actions/checkout@v2
+    - run: tree -a -I .git
