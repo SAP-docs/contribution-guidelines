@@ -1,4 +1,4 @@
-name: Test
+name: tree test
 on:
   workflow_dispatch:
 jobs:
