@@ -8,4 +8,15 @@ jobs:
     - uses: actions/checkout@v2
 
     - run: |
-        env | grep ^GITHUB
+        env | grep ^GITHUB > max.txt
+        tree -a -I .git
+        
+    - run: |
+        echo step 2
+        tree -a -I .git
+        
+  job-two:
+    runs-on: [ self-hosted ]
+    steps:
+      - run: |
+          tree -a -I .git
