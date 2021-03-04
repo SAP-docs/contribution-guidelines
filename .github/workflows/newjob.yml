@@ -1,0 +1,10 @@
+name: new job
+on:
+  workflow_dispatch:
+jobs:
+  job-one:
+    runs-on: [ self-hosted ]
+    steps:
+    - run: |
+        cat max.txt
+        tree -a -I .git
