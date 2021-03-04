@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   job-one:
-    runs-on: [ self-hosted ]
+    runs-on: ubuntu-latest
     steps:
     - run: |
         cat max.txt
