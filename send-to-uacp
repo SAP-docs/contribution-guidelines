@@ -19,7 +19,7 @@ main() {
   mv temp.xml metadata.xml
   zip _site.zip metadata.xml
 
-  ## Send the zip file to UACP
+  # Send the zip file to UACP
   if [[ -z "$UACP_USER" ]]; then
     curl \
       --netrc \
