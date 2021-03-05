@@ -21,14 +21,11 @@ main() {
 
   ## Send the zip file to UACP
   if [[ -z "$UACP_USER" ]]; then
-
-    echo using netrc
     curl \
       --netrc \
       -F "archive=@_site.zip" \
       "https://uacp3.hana.ondemand.com/http.svc/upload?from_github=true"
   else
-    echo using env vars "$UACP_USER"
     curl \
       --user "${UACP_USER}:${UACP_PASS}" \
       -F "archive=@_site.zip" \
