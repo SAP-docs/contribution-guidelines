@@ -1,0 +1,11 @@
+name: Build and push to UACP
+on: [push, workflow_dispatch]
+env:
+  UACP_USER: ${{ secrets.UACP_USER }}
+  UACP_PASS: ${{ secrets.UACP_PASS }}
+jobs:
+  main:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+    - run: ./send-to-uacp
