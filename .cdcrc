@@ -1,7 +1,7 @@
 {
     "path": "docs",
     "dita": {
-        "outputPath": "out",
+        "outputPath": "_cdcout",
         "pretty": true,
         "frameworkPlugin": "@cpmscf/mdlib-plugin-docsify",
         "project": {

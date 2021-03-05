@@ -7,12 +7,14 @@
 
 main() {
 
-  # Build zip file which will be put in out/ directory
+  # Build zip file which will be put in a _cdcout/ directory
   npm run dita
+
+  # Move into the _cdcout/ directory and do everything in there
+  cd _cdcout || exit
 
   # Modify the contents of the generated metadata.xml file within the zip file
   # Use intermediate file as the macOS / BSD version of sed is wonky in its support of -i
-  cd out || exit
   rm -f metadata.xml
   unzip _site.zip metadata.xml
   sed -E 's/href="([^"]+)"/href="\1" format="https:\/\/github.tools.sap\/coDoc\/contribution-guidelines\/tree\/master\/docs\/\1"/' metadata.xml > temp.xml
