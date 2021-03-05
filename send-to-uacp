@@ -2,7 +2,8 @@
 
 # Builds and pushes documentation bundle to UACP
 # Requires API endpoint auth details to be in env vars
-# UACP_USER and UACP_PASS.
+# UACP_USER and UACP_PASS, but will fall back to
+# using netrc if no details are available.
 
 main() {
 
@@ -19,9 +20,20 @@ main() {
   zip _site.zip metadata.xml
 
   ## Send the zip file to UACP
-  curl --user "${UACP_USER}:${UACP_PASS}" \
-   -F "archive=@_site.zip" \
-   "https://uacp3.hana.ondemand.com/http.svc/upload?from_github=true"
+  if [[ -z "$UACP_USER" ]]; then
+
+    echo using netrc
+    curl \
+      --netrc \
+      -F "archive=@_site.zip" \
+      "https://uacp3.hana.ondemand.com/http.svc/upload?from_github=true"
+  else
+    echo using env vars "$UACP_USER"
+    curl \
+      --user "${UACP_USER}:${UACP_PASS}" \
+      -F "archive=@_site.zip" \
+      "https://uacp3.hana.ondemand.com/http.svc/upload?from_github=true"
+  fi
 
 }
 
