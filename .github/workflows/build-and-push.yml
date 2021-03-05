@@ -1,8 +1,8 @@
 name: Build and push to UACP
 on: [push, workflow_dispatch]
 env:
-  UACP_USER: ${{ secrets.UACP_USER }}
-  UACP_PASS: ${{ secrets.UACP_PASS }}
+  UACP_USER: ${{ secrets.UACP3_USER }}
+  UACP_PASS: ${{ secrets.UACP3_PASS }}
 jobs:
   main:
     runs-on: self-hosted
