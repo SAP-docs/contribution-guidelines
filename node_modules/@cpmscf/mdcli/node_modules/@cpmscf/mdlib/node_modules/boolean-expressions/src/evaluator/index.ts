@@ -1,0 +1,3 @@
+import createSemantics from "./createSemantics";
+
+export { createSemantics };
