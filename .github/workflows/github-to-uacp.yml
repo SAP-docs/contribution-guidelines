@@ -11,11 +11,11 @@ jobs:
   main:
     runs-on: self-hosted
     steps:
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJSON(github) }}
+      - name: Make UACP API call
         run: |
-          echo "$GITHUB_CONTEXT"
-          echo REPOSITORY URL
-          echo github.repositoryUrl ${{ github.repositoryUrl }}
-          echo github.event.repository.clone_url ${{ github.event.repository.clone_url }}
+          curl \
+            --location \
+            --request POST \
+            --form 'repository="${{ github.event.repository.clone_url }}"' \
+            --form 'path="${{ github.event.inputs.path }}"' \
+            'https://api.ingress.uacp-services.uacp.shoot.canary.k8s-hana.ondemand.com/github-to-uacp'
