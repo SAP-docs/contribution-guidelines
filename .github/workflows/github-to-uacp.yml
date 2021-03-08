@@ -13,9 +13,12 @@ jobs:
     steps:
       - name: Make UACP API call
         run: |
-          echo \
+          inputs_path=${{ github.event.inputs.path }}
+          FORM_PATH=${inputs_path:-docs}
+          echo FORM_PATH is "$FORM_PATH"
+          echo
             --location \
             --request POST \
             --form 'repository="${{ github.event.repository.clone_url }}"' \
-            --form 'path="${{ github.event.inputs.path }}"' \
+            --form 'path="$FORM_PATH"' \
             'https://api.ingress.uacp-services.uacp.shoot.canary.k8s-hana.ondemand.com/github-to-uacp'
