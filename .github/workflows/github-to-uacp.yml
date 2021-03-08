@@ -11,6 +11,7 @@ jobs:
   main:
     runs-on: self-hosted
     steps:
+      - uses: actions/checkout@v2
       - name: Make UACP API call
         # Note that github.event.inputs.path is only available on workflow_dispatch events,
         # and not e.g. pull events, so we also need a fallback to 'docs'. Hence docs_path.
