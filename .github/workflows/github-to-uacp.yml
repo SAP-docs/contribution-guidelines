@@ -12,11 +12,12 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Make UACP API call
+        # Note that github.event.inputs.path is only available on workflow_dispatch events,
+        # and not e.g. pull events, so we also need a fallback to 'docs'. Hence FORM_PATH.
         run: |
           inputs_path=${{ github.event.inputs.path }}
           FORM_PATH=${inputs_path:-docs}
-          echo FORM_PATH is "$FORM_PATH"
-          echo \
+          curl \
             --location \
             --request POST \
             --form "repository='${{ github.event.repository.clone_url }}'" \
