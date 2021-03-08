@@ -1,0 +1,51 @@
+deliverable:
+- buildname: _001
+  label: GitHub Support Project
+  language: en-US
+  lastmodifiedby: philippe.coudert@sap.com
+  loio: doc-contribution-guidelines
+  owner: i051221
+  product: GHSUPPORT
+  rootfile: upload.zip
+  transtype: html5.uacp
+  shortdesc: Test shortdesc
+  version: CSIBuild
+  gh_edit_prefix: https://github.tools.sap/coDoc/contribution-guidelines/tree/master/docs/
+outputmeta:
+- product: GHSUPPORT
+  product_name: GitHub Support Project
+  product_sapid: null
+  version: CSIBuild
+  version_name: CSIBuild
+  version_sapid: null
+mapref:
+  - title: "SAP Documentation Contribution Guidelines"
+    loio: "doc-contribution-guidelines"
+    shortdesc: "Learn contribution guidelines"
+nav:
+  - title: "Contributing to SAP documentation"
+    filename: "contributing.md"
+  - title: "The Contributor License Agreement process"
+    filename: "cla.md"
+  - title: "What to expect"
+    filename: "what-to-expect.md"
+  - title: "Contribution recognition"
+    filename: "recognition.md"
+  - title: "Code of conduct"
+    filename: "code-of-conduct.md"
+  - title: "Dos and don'ts"
+    filename: "dos-and-donts.md"
+  - title: "How to contribute content"
+    subnav: 
+    - title: "The overall process"
+      filename: "content-contribution/overall-process.md"
+    - title: "What makes a good contribution"
+      filename: "content-contribution/good-contribution.md"
+    - title: "Markdown basics"
+      filename: "content-contribution/markdown-basics.md"
+    - title: "SAP Terminology"
+      filename: "content-contribution/sap-terminology.md"
+    - title: "Content API"
+      subnav: 
+      - title: "Style Guidelines"
+        filename: "content-contribution/style-guidelines.md"

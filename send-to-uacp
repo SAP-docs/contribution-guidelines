@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+# Builds and pushes documentation bundle to UACP
+# Requires API endpoint auth details to be in env vars
+# UACP_USER and UACP_PASS, but will fall back to
+# using netrc if no details are available.
+
+main() {
+
+  # Build zip file which will be put in a _cdcout/ directory
+  npm run dita
+
+  # Move into the _cdcout/ directory and do everything in there
+  cd _cdcout || exit
+
+  # Modify the contents of the generated metadata.xml file within the zip file
+  # Use intermediate file as the macOS / BSD version of sed is wonky in its support of -i
+  rm -f metadata.xml
+  unzip _site.zip metadata.xml
+  sed -E 's/href="([^"]+)"/href="\1" format="https:\/\/github.tools.sap\/coDoc\/contribution-guidelines\/tree\/master\/docs\/\1"/' metadata.xml > temp.xml
+  mv temp.xml metadata.xml
+  zip _site.zip metadata.xml
+
+  # Send the zip file to UACP
+  if [[ -z "$UACP_USER" ]]; then
+    curl \
+      --netrc \
+      -F "archive=@_site.zip" \
+      "https://uacp3.hana.ondemand.com/http.svc/upload?from_github=true"
+  else
+    curl \
+      --user "${UACP_USER}:${UACP_PASS}" \
+      -F "archive=@_site.zip" \
+      "https://uacp3.hana.ondemand.com/http.svc/upload?from_github=true"
+  fi
+
+}
+
+main "$@"

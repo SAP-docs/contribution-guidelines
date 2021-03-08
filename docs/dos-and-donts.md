@@ -8,11 +8,11 @@ Following these guidelines will make collaboration flow more smoothly and produc
 
 - Try to provide as much contextual information in your issue or pull request as you can, to make it as clear as possible for your counterpart to understand what the feedback or change is, and why you think it's important.
 
-- Before your first contribution, ensure you've completed the Contributors License Agreement (CLA) process, described in the [corresponding section](cla.md).
+- Before your first contribution, ensure you've completed the Contributors License Agreement (CLA) process, described in the [The Contributor License Agreement process](cla.md).
 
 - Be respectful of your collaborators and regardless of where they are, treat them as you would treat any work colleague or team mate. After all, we're all only human at the end of the day. See the [Code of Conduct](code-of-conduct.md) for more information.
 
-- Remember to maintain your special `sap-community-profile` repository in your GitHub account, to make it possible for your valuable contributions to be recognized in the [SAP Community][sap-community]. See [Contribution recognition](recognition.md) for more details.
+- Remember to set up your special `sap-community-profile` repository in your GitHub account, to make it possible for your valuable contributions to be recognized in [SAP Community][sap-community]. See [Contribution recognition](recognition.md) for more details.
 
 - When contributing content, be sure to check out the `CONTRIBUTING.md` file in the repository that relates to the documentation set that contains the documentation page upon which you're focusing. While there are general contribution guidelines (you're reading those guidelines right now) there may be repository-specific contribution guidelines too.
 
@@ -24,11 +24,11 @@ Following these guidelines will make collaboration flow more smoothly and produc
 
 It's just as important to know what not to do, so here are some suggestions that should help.
 
-- Avoid bundling multiple logical changes to different areas of documentation in a single contribution. Of course, if you're changing a typo or use of a word or phrase that needs addressing in multiple places, then you should treat that as a single logical change, but different changes for different reasons should be in different issues or pull requests, even if it's for the same SAP documentation page.
+- Don't use feedback, in the form of issues, to ask general or specific questions about the documentation, or to report problems with the product, service or tool being described. There are other more appropriate channels for this (such as the  the [SAP Community Q&A][sap-community-q&a] and the [SAP Support Portal][sap-support-portal]).
 
-- Don't use feedback, in the form of issues, to ask questions on the documentation, or to report problems with the product, service or tool being described. There are other more appropriate channels for this (such as the  the [SAP Community Q&A][sap-community-q&a] and the [SAP Support Portal][sap-support-portal]).
+- Avoid bundling multiple logical changes to different areas of documentation in a single contribution. Of course, if you're changing a typo or use of a word or phrase that needs addressing in multiple places, then you should treat that as a single logical change, but different changes for different reasons should be in different issues or pull requests, even if these changes are all for the same SAP documentation page.
 
-- Don't be despondent if your contribution is not accepted or actioned. While all contributions will be assessed, it's likely that not all will be deemed appropriate, and that's fine. We value your collaboration and appreciate your efforts very much, and certainly would not want you to think that just because one particular contribution didn't make it through to being acted upon, that there was no point in further collaboration. Making good documentation great is an iterative process.
+- Don't be despondent if your contribution is not accepted or actioned. While all contributions will be assessed, it's likely that not all will be deemed appropriate, and that's fine. We value your collaboration and appreciate your efforts, and certainly would not want you to think that just because one particular contribution didn't make it through to being acted upon, that there was no point in further collaboration. Working together to make good documentation great is an iterative process.
 
 - Don't be discouraged if someone disagrees with your viewpoint. While SAP documentation strives to be objective, there are many places in the documentation process that are subjective, and open to debate. When there is a disagreement, remember that it is an opportunity for all involved to learn.
 

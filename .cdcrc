@@ -1,9 +1,9 @@
 {
     "path": "docs",
     "dita": {
-        "outputPath": "out",
+        "outputPath": "_cdcout",
         "pretty": true,
-        "frameworkPlugin": "./docsify-nav",
+        "frameworkPlugin": "@cpmscf/mdlib-plugin-docsify",
         "project": {
             "coordinator": "DJ Adams",
             "name": "SAP Documentation Contribution Guidelines",
