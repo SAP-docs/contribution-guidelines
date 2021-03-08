@@ -1,3 +1,5 @@
 *.swp
 _cdcout/
+node_modules
+.github
 package-lock.json

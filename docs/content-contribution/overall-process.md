@@ -6,11 +6,11 @@ This section describes the overall process for a pull request based content cont
 
 The overall process for content contribution starts with you.
 
-Specifically, you're reading a page of SAP documentation on the [SAP Help Portal][sap-help-portal]. You come across something you're not quite sure is entirely accurate, or you've spotted a typo, or you think that there's a small addition or amendment that you can offer that would help clarify or otherwise add value to what's already there.
+1. You're reading documentation on [SAP Help Portal](http://help.sap.com). You come across something you're not quite sure is entirely accurate, or you've spotted a typo, or you think that there's a small addition or amendment that you can offer that would help clarify or otherwise add value to what's already there.
 
-You check to see if that particular page is open for collaboration. Whether it is or not depends if the documentation set to which the page belongs is enrolled in the SAP collaborative documentation initiative.
+2. You check to see if that particular documentation on SAP Help Portal is open for collaboration. Whether it is or not depends if the documentation set to which the page belongs is enrolled in the SAP collaborative documentation initiative.
 
-You see that the appropriate link is available on that particular page, offering the chance to collaborate by contributing content. This link will look something like the one highlighted here:
+3. You see that the appropriate link is available on that particular page, offering the chance to collaborate by contributing content:
 
 ![Content contribution link](../assets/content-contribution-link.png)
 
