@@ -16,7 +16,7 @@ jobs:
           inputs_path=${{ github.event.inputs.path }}
           FORM_PATH=${inputs_path:-docs}
           echo FORM_PATH is "$FORM_PATH"
-          echo
+          echo \
             --location \
             --request POST \
             --form 'repository="${{ github.event.repository.clone_url }}"' \
