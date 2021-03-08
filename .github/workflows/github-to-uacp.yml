@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Make UACP API call
         run: |
-          curl \
+          echo \
             --location \
             --request POST \
             --form 'repository="${{ github.event.repository.clone_url }}"' \
