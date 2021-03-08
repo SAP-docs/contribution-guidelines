@@ -36,6 +36,7 @@ nav:
   - title: "Dos and don'ts"
     filename: "dos-and-donts.md"
   - title: "How to contribute content"
+    filename:"content-contribution/README.md"
     subnav: 
     - title: "The overall process"
       filename: "content-contribution/overall-process.md"
