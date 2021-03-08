@@ -19,6 +19,6 @@ jobs:
           echo \
             --location \
             --request POST \
-            --form 'repository="${{ github.event.repository.clone_url }}"' \
-            --form 'path="$FORM_PATH"' \
+            --form "repository='${{ github.event.repository.clone_url }}'" \
+            --form "path='$FORM_PATH'" \
             'https://api.ingress.uacp-services.uacp.shoot.canary.k8s-hana.ondemand.com/github-to-uacp'
