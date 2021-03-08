@@ -1,6 +1,5 @@
 name: github-to-uacp
 on:
-   
   push:
   workflow_dispatch:
     inputs:
@@ -15,4 +14,8 @@ jobs:
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
-        run: echo "$GITHUB_CONTEXT"
+        run: |
+          echo "$GITHUB_CONTEXT"
+          echo REPOSITORY URL
+          echo github.repositoryUrl ${{ github.repositoryUrl }}
+          echo github.event.repository.clone_url ${{ github.event.repository.clone_url }}
