@@ -1,5 +1,5 @@
 name: Build and push to UACP
-on: [ push, workflow_dispatch ]
+on: [ ]
 env:
   UACP_USER: ${{ secrets.UACP3_USER }}
   UACP_PASS: ${{ secrets.UACP3_PASS }}
