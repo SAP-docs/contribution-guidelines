@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# Calls UACP API to have the repo content pulled into the CMS
+# Takes two parameters:
+# - repo git URL (https schema) (mandatory)
+# - the dir containing the docs (optional, defaults to 'docs')
+
+readonly url=$1
+readonly path=${2:-docs}
+
+[[ -n $url ]] || exit 1
+
+echo "URL: $url"
+echo "PATH: $path"
+
+curl \
+  --fail \
+  --location \
+  --form 'repository="'"$url"'"' \
+  --form 'path="'"$path"'"' \
+  https://api.ingress.uacp-services.uacp.shoot.canary.k8s-hana.ondemand.com/github-to-uacp
