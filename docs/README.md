@@ -2,7 +2,7 @@
 
 Welcome to the general Contribution Guidelines for SAP documentation. These guidelines explain how you can contribute to SAP documentation, what the overall process is and what you can expect. The guidelines also cover the detailed contribution process itself, what you need to know, and also what's expected from you.
 
-These are general contribution guidelines. There may be further guidelines that are specific to particular documentation repositories in this organization - you will find those specifics in the `CONTRIBUTING.md` files at the root of those respective repositories.
+These are general contribution guidelines. There may be further guidelines that are specific to particular documentation repositories in this organization - you'll find those specifics in the `CONTRIBUTING.md` files at the root of those respective repositories.
 
 Here's what you can find in these guidelines:
 

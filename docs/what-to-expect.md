@@ -1,4 +1,4 @@
-# What to expect
+# What to Expect
 
 Collaboration works better when expectations are understood all round. We want you to understand what to expect in relation to any SAP documentation collaboration.
 
@@ -32,13 +32,13 @@ Early on, the issue or pull request also undergoes checks. Those early checks ar
 
 ## Detailed Assessment
 
-Once the initial assessment has taken place, a member of the appropriate SAP documentation team takes a look, to assess whether the contribution can be accepted.
+Once the initial assessment has taken place, a member of the appropriate SAP documentation team checks whether the contribution can be accepted.
 
 This assessment covers various aspects; what those aspects are depends largely on your contribution and for which particular documentation set it is intended.
 
-This assessment may involve further automated checks, and more importantly for you, involves a conversation about your contribution to clarify details. This is the key to success, and is at the heart of many great pull request based collaboration flows across people and organizations. GitHub notifies you to take part in this conversation, and please respond appropriately and in a timely fashion. We endeavor to do the same. 
+This assessment may involve further automated checks, and more importantly for you, involves a conversation about your contribution to clarify details. This is the key to success, and is at the heart of many successful pull request based collaboration flows across people and organizations. GitHub notifies you to take part in this conversation; please respond appropriately and in a timely fashion. We endeavor to do the same. 
 
-In pull request conversations, it isn't unusual for the submitter (you) to be asked to modify the original submission, so that it fits better, or complies with the relevant standards, style guides, and conventions. 
+In pull request conversations, you may be asked to modify the original submission, so that it fits better, or complies with the relevant standards, style guides, and conventions. 
 
 More information: [How to contribute content](content-contribution/README.md).
 

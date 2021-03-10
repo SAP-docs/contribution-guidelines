@@ -2,10 +2,10 @@
 
 This document outlines mandatory and recommended style guidelines when contributing content in Markdown.
 
-## Mandatory style
+## Mandatory Style
 
 
-## Recommended style
+## Recommended Style
 
 This section describes approaches to Markdown style that are not mandatory but which we prefer and would recommend you adopt too, when offering a content contribution.
 
