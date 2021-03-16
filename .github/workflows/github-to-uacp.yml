@@ -1,6 +1,6 @@
 name: github-to-uacp
 on:
-  pull_request:
+  push:
     branches:
       - main
   workflow_dispatch:
