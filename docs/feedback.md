@@ -1,14 +1,14 @@
 # How to Provide Feedback
 
-Of the two types of contribution, providing feedback is the simpler option. The process is similar to most ticketing flows you have have encountered in the past.
+Of the two types of contribution, providing feedback is the simpler option. The process is similar to most ticketing flows you've have encountered in the past.
 
 ## Creating a New Issue
 
-We use issues on GitHub, and when you follow a link to provide feedback on a particular page of documentation, you are taken automatically to the start of the issue creation workflow. Certain aspects of the new issue will already be set. For example, the issue will be created in the repository that contains the source of the documentation set in question, and that repository will belong within the [SAP-docs](https://github.com/SAP-docs) organization on GitHub.
+We use issues on GitHub, and when you follow a link to provide feedback on a particular page of documentation, you're taken automatically to the start of the issue creation workflow. Certain aspects of the new issue will already be set. For example, the issue will be created in the repository that contains the source of the documentation set in question, and that repository belongs within the [SAP-docs](https://github.com/SAP-docs) organization on GitHub.
 
 Moreover, technical information may have already been inserted into the body of the issue. Ensure that when providing your actual feedback, that you add it without removing any of that technical information.
 
-Finally, metadata, such as labels, may have already been pre-assigned to the issue. Please also refrain from removing any such metadata.
+Finally, metadata, such as labels, may have already been preassigned to the issue. Refrain from removing any such metadata.
 
 ## Providing Your Feedback
 
@@ -16,12 +16,12 @@ Add your feedback to the body of the issue. Try to limit your feedback to the sp
 
 Remember that the contribution context of providing feedback is about describing a problem or making an observation with the intent to indirectly bring about a change. It is not about contributing actual content. If you want to contribute content, see [How to Contribute Content](content-contribution/README.md).
 
-## Engage in the Conversation
+## Engaging in the Conversation
 
-Feedback in this context is a conversation. Be prepare to be engaged, and respond appropriately within the lifetime of the issue. Bear in mind that feedback can be subjective, and while your feedback will be taken seriously it may not ultimately result in a change.
+Feedback in this context is a conversation. Be prepared to engage, and respond appropriately within the lifetime of the issue. Bear in mind that feedback can be subjective, and while your feedback is taken seriously it may not ultimately result in a change.
 
-While it's important to supply as much information as you can to convey and contextualize your feedback, you should also use the conversational aspect of an issue to add more information if you feel it's required, to help your correspondents understand what you see as the issue.
+While it's important to supply as much information as you can to convey and contextualize your feedback, you should also use the conversational aspect of an issue to add more information if you feel it's required. This helps your correspondents understand what you see as the issue.
 
 ## Lifetime of an Issue
 
-An issue will remain in consideration as long as it is in the "Open" status. When an issue is moved to the "Closed" status, this signifies that either a change has been implemented, or no change was deemed necessary. Either way, the outcome will be clear in the issue, when closed.
+An issue remains in consideration as long as it's in the "Open" status. When an issue is moved to the "Closed" status, this signifies that either a change has been implemented, or no change was deemed necessary. Either way, the outcome is clear in the issue, when closed.
