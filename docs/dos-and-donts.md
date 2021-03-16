@@ -12,11 +12,11 @@ Following these guidelines makes collaboration flow more smoothly and productive
 
 - Be respectful of your collaborators and regardless of where they are, treat them as you would treat any work colleague or team mate. After all, we're all only human at the end of the day. See the [Code of Conduct](code-of-conduct.md) for more information.
 
-- Remember to set up your special `sap-community-profile` repository in your GitHub account, to make it possible for your valuable contributions to be recognized in [SAP Community][sap-community]. See [Contribution recognition](recognition.md) for more details.
+- Remember to set up your special `sap-community-profile` repository in your GitHub account, to make it possible for your valuable contributions to be recognized in [SAP Community][sap-community]. See [Contribution Recognition](recognition.md) for more details.
 
 - When contributing content, be sure to check out the `CONTRIBUTING.md` file in the repository that relates to the documentation set that contains the documentation page upon which you're focusing. While there are general contribution guidelines (you're reading those guidelines right now), there may be repository-specific contribution guidelines too.
 
-- Be patient with the contribution process. We want this to be a success and the start of a fruitful and open collaboration on SAP documentation generally, and for that, we need to travel these early paths together carefully. See [What to expect](what-to-expect.md) for more information.
+- Be patient with the contribution process. We want this to be a success and the start of a fruitful and open collaboration on SAP documentation generally, and for that, we need to travel these early paths together carefully. See [What to Expect](what-to-expect.md) for more information.
 
 - Remember that this collaborative process is focused on making SAP documentation the best it can be, and nothing else. It is not for raising issues about functionality, or problems in use or deployment of what's described in the documentation.
 

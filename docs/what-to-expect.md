@@ -12,7 +12,7 @@ Not all SAP documentation has these possibilities available. Collaboration is on
 
 > Note that all collaboration, assessments, and conversations take place, for a given contribution, in the context (thread) of the issue or pull request that represents that contribution.
 
-More information: [Contributing to SAP documentation](contributing.md)
+More information: [Contributing to SAP Documentation](contributing.md)
 
 ## Initial Assessment
 
@@ -36,17 +36,17 @@ Once the initial assessment has taken place, a member of the appropriate SAP doc
 
 This assessment covers various aspects; what those aspects are depends largely on your contribution and for which particular documentation set it is intended.
 
-This assessment may involve further automated checks, and more importantly for you, involves a conversation about your contribution to clarify details. This is the key to success, and is at the heart of many successful pull request based collaboration flows across people and organizations. GitHub notifies you to take part in this conversation; please respond appropriately and in a timely fashion. We endeavor to do the same. 
+This assessment may involve further automated checks, and more importantly for you, involves a conversation about your contribution to clarify details. This is the key to success, and is at the heart of many successful pull request based collaboration flows across people and organizations. GitHub notifies you to take part in this conversation; please respond appropriately and in a timely fashion. We endeavor to do the same.
 
-In pull request conversations, you may be asked to modify the original submission, so that it fits better, or complies with the relevant standards, style guides, and conventions. 
+In pull request conversations, you may be asked to modify the original submission, so that it fits better, or complies with the relevant standards, style guides, and conventions.
 
-More information: [How to contribute content](content-contribution/README.md).
+More information: [How to Contribute Content](content-contribution/README.md).
 
 ## Final Decision
 
 At an appropriate stage, your contribution is either deemed to be not appropriate for acceptance, or is ready to be accepted.
 
-If it's the former, don't despair. You may wish to have a look at [What makes a good contribution](content-contribution/good-contribution.md) and prepare yourself for a future successful contribution.
+If it's the former, don't despair. You may wish to have a look at [What Makes a Good Contribution](content-contribution/good-contribution.md) and prepare yourself for a future successful contribution.
 
 If it's the latter, congratulations and thank you for providing value to the SAP documentation overall. Your contribution is then merged into the relevant file in the corresponding SAP documentation repository, and this eventually finds its way into SAP and onto the SAP Help Portal page from where you started the process.
 

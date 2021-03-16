@@ -8,7 +8,7 @@ In addition to the Contributor Covenant, and as a useful quick reference here, w
 
 ## Participation Etiquette
 
-Our SAP Community has guidelines in the [Rules of engagement][rules-of-engagement] document, and in particular, the items in that document's section on participation are worth highlighting here:
+Our SAP Community has guidelines in the [Rules of Engagement][rules-of-engagement] document, and in particular, the items in that document's section on participation are worth highlighting here:
 
 - Respect fellow members as human beings.
 - Be supportive of each other.
