@@ -35,9 +35,11 @@ nav:
     filename: "code-of-conduct.md"
   - title: "Dos and don'ts"
     filename: "dos-and-donts.md"
+  - title: "How to provide feedback"
+    filename: "feedback.md"
   - title: "How to contribute content"
     filename: "content-contribution/README.md"
-    subnav: 
+    subnav:
     - title: "The overall process"
       filename: "content-contribution/overall-process.md"
     - title: "What makes a good contribution"
@@ -47,6 +49,6 @@ nav:
     - title: "SAP Terminology"
       filename: "content-contribution/sap-terminology.md"
     - title: "Content API"
-      subnav: 
+      subnav:
       - title: "Style Guidelines"
         filename: "content-contribution/style-guidelines.md"
