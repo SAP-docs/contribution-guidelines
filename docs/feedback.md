@@ -10,7 +10,7 @@ Moreover, technical information may have already been inserted into the body of 
 
 Finally, metadata, such as labels, may have already been preassigned to the issue. Refrain from removing any such metadata.
 
-## Providing Your Feedback
+## Providing Your Feedback
 
 Add your feedback to the body of the issue. Try to limit your feedback to the specific documentation page you came from. This is important because it allows for a more focused and fruitful collaborative process.
 
