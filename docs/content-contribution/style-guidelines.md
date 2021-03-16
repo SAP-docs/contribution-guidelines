@@ -1,9 +1,6 @@
 # Style Guidelines
 
-This document outlines mandatory and recommended style guidelines when contributing content in Markdown.
-
-## Mandatory Style
-
+This document outlines some style guidelines that we recommend when contributing content in Markdown.
 
 ## Recommended Style
 
@@ -11,7 +8,7 @@ This section describes approaches to Markdown style that are not mandatory but w
 
 ### Links
 
-For absolute URLs, we prefer the "reference" approach for [links in markdown][links]. Absolute URLs are ones which normally contain a scheme (e.g. `https://`) and a fully qualified domain name (e.g. `help.sap.com`) followed by path info and other optional URL components.
+We prefer the "inline" approach for [links in Markdown](https://www.markdownguide.org/basic-syntax/#links).
 
 This is the "inline" approach, where the URL follows the link text directly:
 
@@ -19,7 +16,7 @@ This is the "inline" approach, where the URL follows the link text directly:
 See [SAP Community](https://community.sap.com) for more information.
 ```
 
-The preferred "reference" approach looks like this:
+In contrast, there is also the "reference" approach looks which like this:
 
 ```markdown
 See [SAP Community](sapcommunity) for more information.
@@ -27,9 +24,9 @@ See [SAP Community](sapcommunity) for more information.
 [sapcommunity]: https://community.sap.com
 ```
 
-The URL is specified in a separate link label, which can appear anywhere in the document, but we recommend it be placed either at the end of the section or at the end of the document.
+The URL is specified in a separate link label, which can appear anywhere in the document. But we prefer the "inline" approach in all circumstances.
 
-Note that for relative URLs (as opposed to absolute URLs), especially those referring to other documents in a documentation set, the "inline" approach is acceptable.
 
-[links]: https://daringfireball.net/projects/markdown/syntax#link
+### Section Headings
 
+If you need to modify or create a new section heading, we recommend [title case](https://en.wikipedia.org/wiki/Title_case).
