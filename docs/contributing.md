@@ -32,7 +32,7 @@ Following the link takes you to the "New Issue" page in GitHub, specifically for
 
 Note that some technical information is automatically added to the main feedback edit area (in other words, in the body of the issue). This associates your feedback with the appropriate page in the documentation. Ensure that when creating a new feedback issue, that you add your feedback to the issue without removing any of that technical information. Also, limit your feedback to the content of that single documentation page.
 
-For more details about making a feedback contribution, see [Contributing feedback via issues](feedback.md).
+For more details about making a feedback contribution, see [How to Provide Feedback](feedback.md).
 
 ### Contributing Content 
 
@@ -52,7 +52,7 @@ Where content contribution is available, you'll see a link like this:
 
 If you're already familiar with pull request based collaboration on GitHub, then this process will be familiar to you. If not, don't worry, it's straightforward, and the GitHub workflow infrastructure, combined with how we use it for collaboration on SAP documentation, makes the process easy for you to follow.
 
-Briefly, here's what a typical pull request based content contribution workflow entails. Note that you start out on the SAP Help Portal, but are taken to the corresponding SAP documentation repository, within the [SAP-docs][sap-docs-org] organization on GitHub, where most of the collaboration workflow steps take place. Note also that some details have been omitted here for brevity but you can find those details in [How to contribute content](content-contribution/README.md).
+Briefly, here's what a typical pull request based content contribution workflow entails. Note that you start out on the SAP Help Portal, but are taken to the corresponding SAP documentation repository, within the [SAP-docs][sap-docs-org] organization on GitHub, where most of the collaboration workflow steps take place. Note also that some details have been omitted here for brevity but you can find those details in [How to Contribute Content](content-contribution/README.md).
 
 **In the SAP Help Portal**
 
