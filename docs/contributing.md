@@ -24,7 +24,7 @@ As mentioned earlier, there are two ways in which you can contribute to SAP docu
 
 We value feedback on our documentation, and want to make it possible for you to do that in a simple but structured way.
 
-Where feedback is possible for a page, you'll see an appropriate link at the bottom of the page, inviting you to contribute feedback.
+Where feedback is possible for a page, you'll see an appropriate link inviting you to contribute feedback.
 
 ![Feedback link](assets/feedback-link.png)
 
