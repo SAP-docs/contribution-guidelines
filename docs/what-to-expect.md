@@ -24,7 +24,7 @@ The assessment is done within a 48-hour period starting from when you submit the
 
 During the initial assessment, appropriate labels are assigned to your request that describe and categorize the contribution. It may also bring about the assignment to projects and milestones, and the assignment of one or more reviewers.
 
-More information: [Labels](github-labels.md)
+More information: [Managing labels][github-labels].
 
 ### Checks
 
