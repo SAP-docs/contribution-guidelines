@@ -1,4 +1,4 @@
-name: Build and push to UACP
+name: "[Deprecated] Build and push to UACP"
 on: [ workflow_dispatch ]
 env:
   UACP_USER: ${{ secrets.UACP3_USER }}
