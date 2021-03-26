@@ -8,7 +8,7 @@ Following these guidelines makes collaboration flow more smoothly and productive
 
 - Try to provide as much contextual information in your issue or pull request as you can. This helps your counterpart understand what the feedback or change is, and why you think it's important.
 
-- Before your first contribution, ensure you've completed the Contributors License Agreement (CLA) process, described in [The Contributor License Agreement process](cla.md).
+- Before your first contribution, ensure you've completed the Contributor License Agreement (CLA) process, described in [The Contributor License Agreement process](cla.md).
 
 - Be respectful of your collaborators and regardless of where they are, treat them as you would treat any work colleague or team mate. After all, we're all only human at the end of the day. See the [Code of Conduct](code-of-conduct.md) for more information.
 
@@ -26,7 +26,7 @@ It's just as important to know what not to do, so here are some suggestions that
 
 - Don't use feedback, in the form of issues, to ask general or specific questions about the documentation, or to report problems with the product, service, or tool being described. There are other more appropriate channels for this (such as the [SAP Community Q&A][sap-community-q&a] and the [SAP Support Portal][sap-support-portal]).
 
-- Avoid bundling multiple logical changes to different areas of documentation in a single contribution. If you're changing a typo or use of a word or phrase that needs addressing in multiple places, then you should treat that as a single logical change, but different changes for different reasons should be in different issues or pull requests, even if these changes are all for the same SAP documentation page.
+- Avoid bundling multiple changes to different areas of documentation in a single contribution. If you're changing a typo or use of a word or phrase that needs addressing in multiple places, then you should treat that as a single logical change, but different changes for different reasons should be in different issues or pull requests, even if these changes are all for the same SAP documentation page.
 
 - Don't be despondent if your contribution is not accepted or actioned. While all contributions are assessed, it's likely that not all will be deemed appropriate, and that's fine. We value your collaboration and appreciate your efforts, and certainly wouldn't want you to think that just because one particular contribution didn't make it through to being acted upon, that there was no point in further collaboration. Working together to make good documentation great is an iterative process.
 
