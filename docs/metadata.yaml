@@ -10,7 +10,7 @@ deliverable:
   transtype: html5.uacp
   shortdesc: Test shortdesc
   version: CSIBuild
-  gh_edit_prefix: https://github.tools.sap/coDoc/contribution-guidelines/tree/main/docs/
+  gh_edit_prefix: https://github.tools.sap/coDoc/contribution-guidelines/edit/main/docs/
 outputmeta:
 - product: GHSUPPORT
   product_name: GitHub Support Project
