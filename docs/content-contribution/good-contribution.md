@@ -8,7 +8,7 @@ In addition to these ideas, you may also wish to browse through existing pull re
 
 Convey your intentions clearly with a concise title and detailed explanation in your pull request.
 
-Content contribution is not just about what you send in the commits that you include in your pull request. It's just as much about how you describe the change, in both the title and the body of the pull request.
+Content contribution is not just about what you send in the changes that you include in your pull request. It's just as much about how you describe the change, in both the title and the body of the pull request.
 
 Use the title to describe what the contribution is for, what it does. Use the body to describe what the contribution is, and why you're offering it. This helps the person processing your pull request enormously, and could make the difference between acceptance and rejection.
 
@@ -28,6 +28,6 @@ Limit your content contribution to a single SAP documentation page.
 
 A change or addition across a number of different pages for a given topic is going to be more complex to describe and also implement, and is not an example of an ideal and simple contribution.
 
-That's not to say that contributions such as this will be ignored; sometimes content changes across multiple pages are required. But for those cases, it may be better to communicate that requirement via feedback, that is by raising an issue. Learn more about the types of contribution in [Contributing to SAP Documentation](../contributing.md).
+That's not to say that pull requests such as this will be ignored; sometimes content changes across multiple pages are required. But for those cases, it may be better to communicate that requirement via feedback, that is by raising an issue. Learn more about the types of contribution in [Contributing to SAP Documentation](../contributing.md).
 
 A good example in this context is a change or addition confined to a single page. This makes it easier to think about, assess and also more straightforward to merge.
