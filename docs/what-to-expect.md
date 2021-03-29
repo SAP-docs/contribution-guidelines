@@ -18,7 +18,7 @@ More information: [Contributing to SAP Documentation](contributing.md)
 
 After you provide feedback in the form of an issue, or after you offer content contribution via a pull request, it is initially assessed.
 
-The assessment is done within a 48-hour period starting from when you submit the issue or pull request, but can take longer, depending on available resources and number of submissions outstanding.
+The initial assessment is typically done within a 48-hour period starting from when you submit the issue or pull request, but can take longer, depending on available resources and number of submissions outstanding.
 
 ### Assignments
 
@@ -36,7 +36,7 @@ Once the initial assessment has taken place, a member of the appropriate SAP doc
 
 This assessment covers various aspects; what those aspects are depends largely on your contribution and for which particular documentation set it is intended.
 
-This assessment may involve further automated checks, and more importantly for you, involves a conversation about your contribution to clarify details. This is the key to success, and is at the heart of many successful pull request based collaboration flows across people and organizations. GitHub notifies you to take part in this conversation; please respond appropriately and in a timely fashion. We endeavor to do the same.
+This assessment may involve further automated checks, and more importantly for you, typically involves a conversation with you about your contribution to clarify details. This is the key to success, and is at the heart of many successful pull request based collaboration flows across people and organizations. GitHub notifies you to take part in this conversation; please respond appropriately and in a timely fashion. We endeavor to do the same.
 
 In pull request conversations, you may be asked to modify the original submission, so that it fits better, or complies with the relevant standards, style guides, and conventions.
 
