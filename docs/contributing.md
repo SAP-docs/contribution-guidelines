@@ -24,7 +24,7 @@ As mentioned earlier, there are two ways in which you can contribute to SAP docu
 
 We value feedback on our documentation, and want to make it possible for you to do that in a simple but structured way.
 
-Where feedback is possible for a page, you'll see an appropriate link inviting you to contribute feedback.
+Where feedback is possible for a page, you'll see an appropriate link inviting you to provide feedback.
 
 ![Feedback link](assets/feedback-link.png)
 
@@ -32,7 +32,7 @@ Following the link takes you to the "New Issue" page in GitHub, specifically for
 
 Note that some technical information is automatically added to the main feedback edit area (in other words, in the body of the issue). This associates your feedback with the appropriate page in the documentation. Ensure that when creating a new feedback issue, that you add your feedback to the issue without removing any of that technical information. Also, limit your feedback to the content of that single documentation page.
 
-For more details about making a feedback contribution, see [How to Provide Feedback](feedback.md).
+For more details about providing feedback, see [How to Provide Feedback](feedback.md).
 
 ### Contributing Content 
 
