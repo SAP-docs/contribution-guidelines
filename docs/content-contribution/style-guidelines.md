@@ -29,4 +29,4 @@ The URL is specified in a separate link label, which can appear anywhere in the 
 
 ### Section Headings
 
-If you need to modify or create a new section heading, we recommend [title case](https://en.wikipedia.org/wiki/Title_case).
+If you want to modify or create a new section heading, we recommend [title case](https://en.wikipedia.org/wiki/Title_case).
