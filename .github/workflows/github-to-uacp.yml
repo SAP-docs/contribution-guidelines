@@ -3,20 +3,10 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
-    inputs:
-      path:
-        description: Where the documentation sources are in this repository
-        required: true
-        default: docs
 jobs:
   main:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
       - name: Make UACP API call
-        # Note that github.event.inputs.path is only available on workflow_dispatch events,
-        # and not e.g. pull events, so we also need a fallback to 'docs'. Hence docs_path.
-        run: |
-          docs_path=${{ github.event.inputs.path }}
-          ./github-to-uacp "${{ github.event.repository.clone_url }}" "${docs_path:-docs}"
+        run: ./github-to-uacp "${{ github.event.repository.clone_url }}" "docs"
