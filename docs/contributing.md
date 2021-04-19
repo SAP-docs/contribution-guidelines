@@ -81,6 +81,9 @@ Briefly, here's what a typical pull request based content contribution workflow 
 For more details about making a content contribution, see [How to contribute content](content/README.md).
 
 
+## Material Ownership & Use
+
+SAP does not claim ownership of the materials you provide (including feedback and suggested content contributions). However, by providing feedback or submitting content contributions you are granting SAP permission to use that material. In addition, SAP is under no obligation to use the feedback you provide or the content contributions you submit.
 
 [github-issues]: https://guides.github.com/features/issues/
 [github-pull-requests]: https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
