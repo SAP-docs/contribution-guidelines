@@ -7,6 +7,7 @@ This document outlines some style guidelines that we recommend when contributing
 * [Links](#links)
 * [Formatting of Inline Elements](#formatting-of-inline-elements)
 * [Code Snippet Formatting](#code-snippet-formatting)
+* [Note Types](#note-types)
   
 ## Language
 
@@ -116,3 +117,71 @@ Use backticks (\`) for field names, and field values.
 > 4. Open a browser window and enter your application’s URL.
 > 
 
+## Note Types
+
+Standard Markdown supports blockquotes, often used to highlight additional information. In SAP documentation you'd refer to them as **note types**. In the list below, you can find additional note types commonly used in SAP documentation, and how to introduce them in Markdown so that they are displayed properly on SAP Help Portal.
+
+> ### Caution 
+> Overusing notes, tips, and so on diminishes their importance. As a general rule, do not use more than 2 items of advisory information per page. Also, do not put them directly after one another. 
+
+<details><summary>Standard Note</summary>
+
+  Point out important or unusual information to the user. Something that they need to understand or that is not obvious. No direct action involved.
+
+  Example:
+  ```markdown
+  > The pricing-relevant data needs to correspond to the data specified for the Web shop in the shop management tool.
+  ```
+
+  Result:
+  > The pricing-relevant data needs to correspond to the data specified for the Web shop in the shop management tool.
+
+</details>
+
+<details><summary>Caution</summary>
+
+  Caution the user to avoid severe or dangerous hazards. Potential harm may range from damaged files over data loss and data inconsistency to system failure. The issues are not easy to repair.
+
+  Example:
+  ```markdown
+  > ### Caution
+  > Do not manually alter localization files. Doing so may cause unpredictable results, including data loss.
+  ```
+
+  Result:
+  > ### Caution
+  > Do not manually alter localization files. Doing so may cause unpredictable results, including data loss.
+
+</details>
+
+<details><summary>Example</summary>
+
+  Give small examples to illustrate your point.
+
+  Example:
+  ```markdown
+  > ### Example
+  > This is an example that I want to be set off from body text. It has an icon and a signal word. And this is the third sentence but there may be more sentences. 3–5 sentences are a rough guideline.
+  ```
+
+  Result:
+  > ### Example
+  > This is an example that I want to be set off from body text. It has an icon and a signal word. And this is the third sentence but there may be more sentences. 3–5 sentences are a rough guideline.
+
+</details>
+
+<details><summary>Tip</summary>
+
+  Tips are usually optional. Advise the user to take an action (or refrain from it) to solve or avoid unwanted, minor issues. No risk of harm. The issues are relatively easy to repair.
+
+  Example:
+  ```markdown
+  > ### Tip
+  > If your system is running slowly, verify that memory configuration parameters are set to the recommended values.
+  ```
+
+  Result:
+  > ### Tip
+  > If your system is running slowly, verify that memory configuration parameters are set to the recommended values.
+
+</details>
