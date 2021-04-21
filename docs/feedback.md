@@ -6,9 +6,9 @@ Of the two types of contribution, providing feedback is the simpler option. The 
 
 We use issues on GitHub, and when you follow a link to provide feedback on a particular page of documentation, you're taken automatically to the start of the issue creation workflow. Certain aspects of the new issue will already be set. For example, the issue will be created in the repository that contains the source of the documentation set in question, and that repository belongs within the [SAP-docs](https://github.com/SAP-docs) organization on GitHub.
 
-Moreover, technical information may have already been inserted into the body of the issue. Ensure that when providing your actual feedback, that you add it without removing any of that technical information.
+Some technical information is automatically added to the main feedback edit area (in other words, in the body of the issue). This associates your feedback with the appropriate page in the documentation. Ensure that when creating a new feedback issue, that you add your feedback to the issue without removing any of that technical information.
 
-Finally, metadata, such as labels, may have already been preassigned to the issue. Refrain from removing any such metadata.
+Finally, metadata, such as labels, may also have already been preassigned to the issue. Refrain from removing any such metadata.
 
 ## Providing Your Feedback
 
