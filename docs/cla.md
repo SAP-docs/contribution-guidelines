@@ -1,12 +1,7 @@
 # The Contributor License Agreement Process
 
-A key ingredient in successful and fruitful collaboration is the mutual understanding and agreement between all involved. To this end, in the context of contributions to SAP documentation, we offer a standard process based around the Contributor License Agreement (CLA) which we invite you to follow before your first contribution. This ensures that everyone understands how contributions are made, accepted, and used.
+A key ingredient in successful and fruitful collaboration is the mutual understanding and agreement between all involved.
 
-Before your first contribution to a documentation repository, you are asked to review and accept a Developer Certificate of Origin (DCO). This is at the point you submit your first pull request (see [The Overall Process](content-contribution/overall-process.md) for more information).
+To this end, in the context of contributions to SAP documentation, we require you to read and electronically sign a Contributor License Agreement (CLA). It is important that you understand how contributions are made, accepted, and used.
 
-The DCO acceptance can be done within the pull request itself; look out for the CLA assistant that guides you through the simple process.
-
-SAP uses the [standard DCO text of the Linux Foundation][dco].
-
-
-[dco]: https://developercertificate.org/
+The CLA process happens automatically at the point you submit your first pull request. See [The Overall Process](content-contribution/overall-process.md) for more information.
