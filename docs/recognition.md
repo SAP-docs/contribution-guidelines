@@ -1,4 +1,4 @@
-# Contribution Recognition
+# Contribution Recognition in SAP Community
 
 In [SAP Community][sap-community] there's a wide variety of [missions and badges][missions-badges], and we want to recognize valuable documentation contributions there too.
 
@@ -12,7 +12,7 @@ There's also a "Documentation content contribution" badge, which will be awarded
 
 ## Linking Profiles
 
-While recognition is made in [SAP Community][sap-community], the contribution activities themselves take place in [GitHub][github]. This means that in order to award a badge, a link is required that associates your GitHub profile with your SAP Community profile. This is so that qualifying contribution activities in GitHub can be recognized correctly for you in SAP Community.
+While recognition is made in [SAP Community][sap-community], the contribution activities themselves take place in [GitHub](https://github.com/SAP-docs). This means that in order to award a badge, a link is required that associates your GitHub profile with your SAP Community profile. This is so that qualifying contribution activities in GitHub can be recognized correctly for you in SAP Community.
 
 It is your responsibility to create and maintain this link, as you are in control of your GitHub identity. The process is straightforward, and involves the creation of a public repository on GitHub named `sap-community-profile`, with the URL of your SAP Community profile in the description of that repository.
 
@@ -40,5 +40,4 @@ Once the repository exists and is in the form described here, recognition in SAP
 
 [sap-community]: https://community.sap.com
 [missions-badges]: https://community.sap.com/resources/missions-badges
-[github]: https://github.com
 [github-new]: https://github.com/new
