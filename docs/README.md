@@ -9,7 +9,7 @@ Here's what you can find in these guidelines:
 - [Contributing to SAP Documentation](contributing.md)
 - [The Contributor License Agreement Process](cla.md)
 - [What to Expect](what-to-expect.md)
-- [Contribution Recognition](recognition.md)
+- [Contribution Recognition in SAP Community](recognition.md)
 - [Code of Conduct](code-of-conduct.md)
 - [Dos and Don'ts](dos-and-donts.md)
 - [How to Contribute Feedback](feedback.md)

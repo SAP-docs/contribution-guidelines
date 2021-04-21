@@ -12,7 +12,7 @@ Following these guidelines makes collaboration flow more smoothly and productive
 
 - Be respectful of your collaborators and regardless of where they are, treat them as you would treat any work colleague or team mate. After all, we're all only human at the end of the day. See the [Code of Conduct](code-of-conduct.md) for more information.
 
-- Remember to set up your special `sap-community-profile` repository in your GitHub account, to make it possible for your valuable contributions to be recognized in [SAP Community][sap-community]. See [Contribution Recognition](recognition.md) for more details.
+- Remember to set up your special `sap-community-profile` repository in your GitHub account, to make it possible for your valuable contributions to be recognized in [SAP Community][sap-community]. See [Contribution Recognition in SAP Community](recognition.md) for more details.
 
 - While most things are covered in the general contribution guidelines, check if there are additional guidelines in the `CONTRIBUTING.md` file of the repository to which you're contributing.
 
