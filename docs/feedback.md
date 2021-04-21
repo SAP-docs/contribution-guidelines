@@ -14,7 +14,9 @@ Finally, metadata, such as labels, may also have already been preassigned to the
 
 Add your feedback to the body of the issue. Try to limit your feedback to the specific documentation page you came from. This is important because it allows for a more focused and fruitful collaborative process.
 
-Remember that the contribution context of providing feedback is about describing a problem or making an observation with the intent to indirectly bring about a change. It is not about contributing actual content. If you want to contribute content, see [How to Contribute Content](content-contribution/README.md).
+Remember that providing feedback is about describing a problem or making an observation with the intent to indirectly effect a change, in other words, to get us to change something. For example, you may have observed that a product name has been consistently written incorrectly, or you may feel as though the documentation is not sufficient to perform the task at hand.
+
+Providing feedback is not itself about contributing actual content. If you want to contribute content, see [How to Contribute Content](content-contribution/README.md).
 
 ## Engaging in the Conversation
 
@@ -24,4 +26,4 @@ While it's important to supply as much information as you can to convey and cont
 
 ## Lifetime of an Issue
 
-An issue remains in consideration as long as it's in the "Open" status. When an issue is moved to the "Closed" status, this signifies that either a change has been implemented, or no change was deemed necessary. Either way, the outcome is clear in the issue, when closed.
+An issue remains in consideration as long as it's in the **Open** status. When an issue is moved to the **Closed** status, this signifies that either a change has been implemented, no change was deemed necessary, or mutual interest in the issue expired. In all of these cases, the outcome will be made clear in the issue, when closed.
