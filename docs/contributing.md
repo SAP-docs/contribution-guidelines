@@ -54,7 +54,7 @@ You spot something on a page in the SAP Help Portal to which you wish to make a 
 
 You make your contribution. After you save your changes, you are guided through the process of creating a pull request. The team responsible for the documentation sees your request and checks it for appropriateness. A successful contribution is merged into the SAP documentation page source.
 
-For more details about contributing content, see [How to contribute content](content/README.md).
+For more details about contributing content, see [How to contribute content](content-contribution/README.md).
 
 
 ## Keeping Track of Your Contributions
