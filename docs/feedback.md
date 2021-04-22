@@ -6,15 +6,17 @@ Of the two types of contribution, providing feedback is the simpler option. The 
 
 We use issues on GitHub, and when you follow a link to provide feedback on a particular page of documentation, you're taken automatically to the start of the issue creation workflow. Certain aspects of the new issue will already be set. For example, the issue will be created in the repository that contains the source of the documentation set in question, and that repository belongs within the [SAP-docs](https://github.com/SAP-docs) organization on GitHub.
 
-Moreover, technical information may have already been inserted into the body of the issue. Ensure that when providing your actual feedback, that you add it without removing any of that technical information.
+Some technical information is automatically added to the main feedback edit area (in other words, in the body of the issue). This associates your feedback with the appropriate page in the documentation. Ensure that when creating a new feedback issue, that you add your feedback to the issue without removing any of that technical information.
 
-Finally, metadata, such as labels, may have already been preassigned to the issue. Refrain from removing any such metadata.
+Finally, metadata, such as labels, may also have already been preassigned to the issue. Refrain from removing any such metadata.
 
 ## Providing Your Feedback
 
 Add your feedback to the body of the issue. Try to limit your feedback to the specific documentation page you came from. This is important because it allows for a more focused and fruitful collaborative process.
 
-Remember that the contribution context of providing feedback is about describing a problem or making an observation with the intent to indirectly bring about a change. It is not about contributing actual content. If you want to contribute content, see [How to Contribute Content](content-contribution/README.md).
+Remember that providing feedback is about describing a problem or making an observation with the intent to indirectly effect a change, in other words, to get us to change something. For example, you may have observed that a product name has been consistently written incorrectly, or you may feel as though the documentation is not sufficient to perform the task at hand.
+
+Providing feedback is not itself about contributing actual content. If you want to contribute content, see [How to Contribute Content](content-contribution/README.md).
 
 ## Engaging in the Conversation
 
@@ -24,4 +26,4 @@ While it's important to supply as much information as you can to convey and cont
 
 ## Lifetime of an Issue
 
-An issue remains in consideration as long as it's in the "Open" status. When an issue is moved to the "Closed" status, this signifies that either a change has been implemented, or no change was deemed necessary. Either way, the outcome is clear in the issue, when closed.
+An issue remains in consideration as long as it's in the **Open** status. When an issue is moved to the **Closed** status, this signifies that either a change has been implemented, no change was deemed necessary, or mutual interest in the issue expired. In all of these cases, the outcome will be made clear in the issue, when closed.
