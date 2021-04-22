@@ -1,18 +1,18 @@
 # Contribution Recognition in SAP Community
 
-In [SAP Community][sap-community] there's a wide variety of [missions and badges][missions-badges], and we want to recognize valuable documentation contributions there too.
+In addition to the many [missions and badges][missions-badges] already available in [SAP Community][sap-community], we have added two new badges to recognize valuable documentation contributions.
 
 ## Badges
 
 In [SAP Community][sap-community] there are two badges relating to community contributions to documentation.
 
-There's a "Documentation feedback contribution" badge, which will be awarded if you've contributed feedback in the form of an issue, which has subsequently led to an improvement in the documentation.
+* **Documentation feedback contribution** badge: Earn this badge when you provide feedback that leads to an improvement in the documentation.
 
-There's also a "Documentation content contribution" badge, which will be awarded if you've contributed content via the pull request method. In order to qualify, that pull request must have been merged and your content contribution included in the documentation.
+* **Documentation content contribution** badge: Earn this badge when you contribute content using the pull request method. The pull request has to be merged and included in the documentation.
 
 ## Your SAP Community Profile
 
-While recognition is made in [SAP Community][sap-community], the contribution activities themselves take place in [GitHub](https://github.com/SAP-docs). This means that in order to award a badge, we need to know your SAP Community profile. This is so that qualifying contribution activities in GitHub can be recognized correctly for you in SAP Community.
+While recognition is done in [SAP Community][sap-community], the contribution activities themselves take place in [GitHub](https://github.com/SAP-docs). This means that in order to award a badge, we need to know your SAP Community profile. This is so that qualifying contribution activities in GitHub can be recognized correctly for you in SAP Community.
 
 If your contribution qualifies, you'll be asked in the issue or pull request for your SAP Community profile identifier, this will be the part of your SAP Community profile URL that follows the `https://people.sap.com/` part.
 
@@ -26,3 +26,5 @@ the identifier is:
 
 Please reply with a new comment in the issue or pull request as directed, supplying this identifier. Your badge can then be issued.
 
+[sap-community]: https://community.sap.com
+[missions-badges]: https://community.sap.com/resources/missions-badges

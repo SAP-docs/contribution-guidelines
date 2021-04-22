@@ -1,6 +1,6 @@
 # Dos and Don'ts
 
-It's better all round when collaborating if there are guidelines for what to do and what not to do. Here's a brief list of things we encourage, and things we discourage.
+Here's a brief list of things we encourage, and things we discourage.
 
 ## Do
 
@@ -10,9 +10,7 @@ Following these guidelines makes collaboration flow more smoothly and productive
 
 - Try to provide as much contextual information in your issue or pull request as you can. This helps your counterpart understand what the feedback or change is, and why you think it's important.
 
-- Be respectful of your collaborators and regardless of where they are, treat them as you would treat any work colleague or team mate. After all, we're all only human at the end of the day. See the [Code of Conduct](code-of-conduct.md) for more information.
-
-- Remember to set up your special `sap-community-profile` repository in your GitHub account, to make it possible for your valuable contributions to be recognized in [SAP Community][sap-community]. See [Contribution Recognition in SAP Community](recognition.md) for more details.
+- Be respectful of your collaborators and treat them as you would treat any work colleague or team mate. See the [Code of Conduct](code-of-conduct.md) for more information.
 
 - While most things are covered in the general contribution guidelines, check if there are additional guidelines in the `CONTRIBUTING.md` file of the repository to which you're contributing.
 
@@ -30,7 +28,7 @@ It's just as important to know what not to do, so here are some suggestions that
 
 - Avoid bundling multiple changes to different areas of documentation in a single contribution. If you're changing a typo or use of a word or phrase that needs addressing in multiple places, then you should treat that as a single logical change, but different changes for different reasons should be in different issues or pull requests, even if these changes are all for the same SAP documentation page.
 
-- Don't be despondent if your contribution is not accepted or actioned. While all contributions are assessed, it's likely that not all will be deemed appropriate, and that's fine. We value your collaboration and appreciate your efforts, and certainly wouldn't want you to think that just because one particular contribution didn't make it through to being acted upon, that there was no point in further collaboration. Working together to make good documentation great is an iterative process.
+- Don't be despondent if your contribution is not accepted or actioned. While all contributions are assessed, it's likely that not all will be accepted.
 
 - Don't be discouraged if someone disagrees with your viewpoint. While SAP documentation strives to be objective, there are many places in the documentation process that are subjective, and open to debate. When there is a disagreement, remember that it is an opportunity for all involved to learn.
 

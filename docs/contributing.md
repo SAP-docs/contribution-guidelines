@@ -57,6 +57,12 @@ You make your contribution. After you save your changes, you are guided through 
 For more details about contributing content, see [How to contribute content](content/README.md).
 
 
+## Keeping Track of Your Contributions
+
+You can use standard GitHub functionality to keep track of the issues your raise and the pull requests that you open, by using filters. See [Finding information in a repository](https://docs.github.com/en/github/managing-your-work-on-github/finding-information-in-a-repository) for more details.
+
+You can also stay informed, by using notifications. See [Setting up notifications](https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/setting-up-notifications) to find out how.
+
 ## Material Ownership and Use
 
 SAP does not claim ownership of the materials you provide (including feedback and suggested content contributions). However, by providing feedback or submitting content contributions you are granting SAP permission to use that material. In addition, SAP is under no obligation to use the feedback you provide or the content contributions you submit.

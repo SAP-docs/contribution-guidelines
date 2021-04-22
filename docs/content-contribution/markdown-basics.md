@@ -66,14 +66,6 @@ In hypertext media, links are fundamental, and it's easy to present links in Mar
 Check out the [SAP Community missions and badges](https://community.sap.com/resources/missions-badges) ...
 ```
 
-There is also the "reference" style of link, which [we prefer](style-guidelines) when referring to absolute URLs:
-
-```markdown
-Check out the [SAP Community missions and badges][missions-and-badges] ...
-
-[missions-and-badges]: https://community.sap.com/resources/missions-badges
-```
-
 Images are marked up in a similar fashion, the difference is that the markup is prefixed with a `!` character:
 
 ```markdown

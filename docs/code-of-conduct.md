@@ -2,7 +2,7 @@
 
 At the heart of great collaboration is a common sense of mutual respect and understanding, and the willingness to see the best, not the worst, in each other.
 
-In the context of our collaborative aims for SAP documentation, we subscribe to the [Contributor Covenant][contributor-covenant], a code of conduct for open source communities. Refer to that covenant and the standards & guidelines in the latest version.
+In the context of our collaborative aims for SAP documentation, we subscribe to the [Contributor Covenant][contributor-covenant], a code of conduct for open source communities. Refer to the latest version of that covenant and the standards and guidelines that it contains.
 
 In addition to the Contributor Covenant, and as a useful quick reference here, we have a few points that we want you to read and follow carefully.
 
