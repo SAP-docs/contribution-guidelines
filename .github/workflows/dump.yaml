@@ -1,0 +1,15 @@
+name: Dump
+on:
+  workflow_dispatch:
+jobs:
+  MAIN:
+    runs-on: codoc-label
+    steps:
+
+    - name: Basic Environment
+      run: env
+
+    - name: GitHub context
+      env:
+        GITHUB_CONTEXT: ${{ toJSON(github) }}
+      run: echo "$GITHUB_CONTEXT"
