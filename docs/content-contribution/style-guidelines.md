@@ -1,6 +1,6 @@
 # Style Guidelines
 
-This document outlines some style guidelines that we recommend when contributing content in Markdown. They are not mandatory, but they help us to include your contribution more easily to the SAP documentation.
+This document outlines some style guidelines that we recommend when contributing content in Markdown. They are not mandatory, but they help us to include your contribution more easily.
 
 * [Language](#language)
 * [Section Headings](#section-headings)
@@ -8,20 +8,19 @@ This document outlines some style guidelines that we recommend when contributing
 * [Formatting of Inline Elements](#formatting-of-inline-elements)
 * [Code Snippet Formatting](#code-snippet-formatting)
 * [Note Types](#note-types)
-  
+
 ## Language
 
-* Use US English. 
+* Use US English.
 * Keep it simple and use words that non-native English speakers are also familiar with.
 
 ## Section Headings
 
-If you want to modify or create a new section heading, we recommend [title case](https://en.wikipedia.org/wiki/Title_case).
-
+If you want to modify or create a new section heading, we recommend title case.
 
 ## Links
 
-We prefer the "inline" approach for [links in Markdown](https://www.markdownguide.org/basic-syntax/#links).
+If you're providing a hyperlink, we prefer the "inline" approach links in Markdown. See [Basic Syntax for Links](https://www.markdownguide.org/basic-syntax/#links) for more information.
 
 This is the "inline" approach, where the URL follows the link text directly:
 
@@ -48,11 +47,11 @@ Use *italics* when you refer to UI elements.
 
 | UI Element | Standard Formulation | Markdown Syntax |
 |:---|:---|:---|
-| Button, Menu path | Choose *UI Element*. | `Choose *UI Element*.` |
+| Button, menu path | Choose *UI Element*. | `Choose *UI Element*.` |
 | Menu path, context menu, navigation path  |  Choose *System* \> *User Profile* \> *Own Data*. | `Choose *System* \> *User Profile* \> *Own Data*.` |
 | Entry fields | Enter your password. | `Enter your password.` |
 | Checkbox, radio button | Select *Filter*. | `Select *Filter*.` |
-| Expandable screen elements | Expand *User Settings*.<br>Collapse *User Settings*. | `Expand *User Settings*`.<br>`Collapse *User Settings*.` |
+| Expandable screen elements | Expand *User Settings*.<br> Collapse *User Settings*. | `Expand *User Settings*`.<br> `Collapse *User Settings*.` |
 
 
 ### New Terms and Emphasis
@@ -111,18 +110,18 @@ Use backticks (\`) for field names, and field values.
 > ### Example
 >
 > 3. Update the XSUAA service.
-> 
+>
 >         cf update-service myuaa -c xs-security.json
-> 
+>
 > 4. Open a browser window and enter your application’s URL.
-> 
+>
 
 ## Note Types
 
 Standard Markdown supports blockquotes, often used to highlight additional information. In SAP documentation you'd refer to them as **note types**. In the list below, you can find additional note types commonly used in SAP documentation, and how to introduce them in Markdown so that they are displayed properly on SAP Help Portal.
 
-> ### Caution 
-> Overusing notes, tips, and so on diminishes their importance. As a general rule, do not use more than 2 items of advisory information per page. Also, do not put them directly after one another. 
+> ### Caution
+> Overusing notes, tips, and so on diminishes their importance. As a general rule, do not use more than 2 items of advisory information per page. Also, do not put them directly after one another.
 
 <details><summary>Standard Note</summary>
 
@@ -135,22 +134,6 @@ Standard Markdown supports blockquotes, often used to highlight additional infor
 
   Result:
   > The pricing-relevant data needs to correspond to the data specified for the Web shop in the shop management tool.
-
-</details>
-
-<details><summary>Caution</summary>
-
-  Caution the user to avoid severe or dangerous hazards. Potential harm may range from damaged files over data loss and data inconsistency to system failure. The issues are not easy to repair.
-
-  Example:
-  ```markdown
-  > ### Caution
-  > Do not manually alter localization files. Doing so may cause unpredictable results, including data loss.
-  ```
-
-  Result:
-  > ### Caution
-  > Do not manually alter localization files. Doing so may cause unpredictable results, including data loss.
 
 </details>
 
@@ -183,5 +166,21 @@ Standard Markdown supports blockquotes, often used to highlight additional infor
   Result:
   > ### Tip
   > If your system is running slowly, verify that memory configuration parameters are set to the recommended values.
+
+</details>
+
+<details><summary>Caution</summary>
+
+  Caution the user to avoid severe or dangerous hazards. Potential harm may range from damaged files over data loss and data inconsistency to system failure. The issues are not easy to repair.
+
+  Example:
+  ```markdown
+  > ### Caution
+  > Do not manually alter localization files. Doing so may cause unpredictable results, including data loss.
+  ```
+
+  Result:
+  > ### Caution
+  > Do not manually alter localization files. Doing so may cause unpredictable results, including data loss.
 
 </details>

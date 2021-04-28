@@ -10,15 +10,15 @@ In other words, when making a content contribution, take some time to look aroun
 
 ## A Quick Introduction
 
-There are many introductory and advanced Markdown guides that are freely available, and we recommend that you take a look at some of those (see the appropriate section later in this document).
+There are many introductory and advanced Markdown guides that are freely available, and we recommend that you take a look at some of those. [The Markdown Guide][markdownguide] is a free and open source reference guide, and [Mastering Markdown][github-guides-mastering-markdown] is one of the [GitHub Guides][github-guides].
 
-Nonetheless, we thought it would be helpful to give a quick introduction, so you can see how straightforward it is and how easy to use it can be.
+Nonetheless, we thought it would be helpful to give a quick introduction here, so you can see how straightforward it is.
 
 Markdown has syntax to mark up various aspects of a document, aspects such as text emphasis and usage, lists, links, images and more. It also supports the appropriate rendering of programming and configuration languages, especially useful for showing examples and snippets.
 
 ### Text Emphasis and Usage
 
-Headings in a document are introduced by `#` characters at the start of the line. The more characters, the lower the level of heading.
+Headings in a document are introduced by `#` characters at the start of the line. The more characters, the lower the heading level.
 
 ```markdown
 # Top level heading (equates to <h1> in HTML)
@@ -26,7 +26,7 @@ Headings in a document are introduced by `#` characters at the start of the line
 ### Third level heading
 ```
 
-> For a real example, the heading introducing this section, that is "Text emphasis and usage", is marked up with `###` to denote a third level heading.
+> For a real example, the heading that introduces this section, that is "Text emphasis and usage", is marked up with `###` to denote a third level heading.
 
 Text can be marked as italic, bold or even both, using `*` and `_` characters:
 
@@ -36,9 +36,16 @@ On the other hand, **this will be bold**, and __this will be bold too__.
 And _**this**_ will be both bold and italic.
 ```
 
+Here's how these three example lines will be rendered:
+
+_This will be emphasized in italics_, and *so will this*.
+On the other hand, **this will be bold**, and __this will be bold too__.
+And _**this**_ will be both bold and italic.
+
+
 ### Lists
 
-Ordered and unordered lists can be created, and they support sub items. Here is an unordered list:
+You can create ordered and unordered lists, and they support sub-items. Here is an unordered list:
 
 ```markdown
 - an item
@@ -72,7 +79,7 @@ Images are marked up in a similar fashion, the difference is that the markup is 
 ![A screenshot showing the possible selections](selections-screenshot.png)
 ```
 
-### Language Rendering
+### Rendering of Code and Configuration
 
 Perhaps one of the most useful aspects of Markdown is the simple way you can have code or configuration rendered. Lines of code or configuration can be introduced by three backtick characters, followed by the name of the language or configuration format. Three backticks also end the set of lines to be rendered. Take a look at the Markdown source for this very document to see examples of this.
 
@@ -82,11 +89,6 @@ There's also the single backtick variant, which can be used within a line to ren
 ```markdown
 Check out the `CONTRIBUTING.md` file for more information.
 ```
-
-## Further Reading
-
-[The Markdown Guide][markdownguide] is a free and open source reference guide. In addition, we recommend you take a look at [Mastering Markdown][github-guides-mastering-markdown], one of the [GitHub Guides][github-guides].
-
 
 [markdown]: https://en.wikipedia.org/wiki/Markdown
 [markdownguide]: https://www.markdownguide.org/
