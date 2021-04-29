@@ -5,17 +5,39 @@
 # - repo git URL (https schema) (mandatory)
 # - the dir containing the docs (optional, defaults to 'docs')
 
-readonly url=$1
-readonly path=${2:-docs}
+# Requires the UACP ingress URL to be set in env var UACP_INGRESS_URL.
 
-[[ -n $url ]] || exit 1
+declare URL=${UACP_INGRESS_URL:?UACP ingress URL not set}
 
-echo "URL: $url"
-echo "PATH: $path"
+usage() {
 
-curl \
-  --fail \
-  --location \
-  --form 'repository="'"$url"'"' \
-  --form 'path="'"$path"'"' \
-  https://api.ingress.uacp-services.uacp.shoot.canary.k8s-hana.ondemand.com/github-to-uacp
+  local self=$1
+  echo "Usage: $self <repo-git-url> <documentation-dir>"
+
+}
+
+calluacp() {
+
+  local url=$1
+  local path=${2:-docs}
+
+  curl \
+    --fail \
+    --location \
+    --form 'repository="'"$url"'"' \
+    --form 'path="'"$path"'"' \
+    "$URL"
+
+}
+
+main() {
+
+  local self
+  self="$(basename "$0")"
+  [[ $# == 0 ]] && usage "$self" && exit 1
+
+  calluacp "$@"
+
+}
+
+main "$@"
