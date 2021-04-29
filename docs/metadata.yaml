@@ -2,7 +2,7 @@ deliverable:
 - buildname: _001
   label: GitHub Support Project
   language: en-US
-  lastmodifiedby: philippe.coudert@sap.com
+  lastmodifiedby: dj.adams@sap.com
   loio: doc-contribution-guidelines
   owner: i051221
   product: GHSUPPORT
@@ -10,7 +10,7 @@ deliverable:
   transtype: html5.uacp
   shortdesc: Test shortdesc
   version: CSIBuild
-  gh_edit_prefix: https://github.tools.sap/coDoc/contribution-guidelines/edit/main/docs/
+  gh_edit_prefix: https://github.com/SAP-docs/contribution-guidelines/edit/main/docs/
 outputmeta:
 - product: GHSUPPORT
   product_name: GitHub Support Project
