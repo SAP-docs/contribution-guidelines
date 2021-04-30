@@ -22,4 +22,4 @@ Please refer to the [`CONTRIBUTING.md`](CONTRIBUTING.md) file.
 
 ## License
 
-Copyright: 2021 SAP SE or an SAP affiliate company and contribution-guidelines contributors. This project is licensed under the Creative Commons Attribution 4.0 International license. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](link to https://api.reuse.software/info/github.com/SAP-docs/contribution-guidelines).
+Copyright: 2021 SAP SE or an SAP affiliate company and contribution-guidelines contributors. This project is licensed under the Creative Commons Attribution 4.0 International license. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP-docs/contribution-guidelines).
