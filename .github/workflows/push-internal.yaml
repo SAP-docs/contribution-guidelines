@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
 
       SOURCE_OWNER_REPO: ${{ github.repository }}
       SOURCE_REPO_NAME: ${{ github.event.repository.name }}
-      SOURCE_REPO_BRANCH: master
+      SOURCE_REPO_BRANCH: main
       SOURCE_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       SOURCE_REPO_HOST: github.com
 
