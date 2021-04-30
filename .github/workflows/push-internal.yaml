@@ -1,36 +1,88 @@
 #######################################################################
-### This workflow pushes changes back to an internal mirror of this ###
-### repository, when changes are pushed to the main branch.         ###
-### This workflow must be run from within the source repo.          ###
+### This workflow brings changes back to an internal paired repo    ###
+### when changes are pushed to the main branch.                     ###
+###                                                                 ###
+### This workflow can be (and will only) run from within the source ###
+### repository i.e. on github.com.                                  ###
 #######################################################################
 
-name: push-internal
+name: Sync back to internal
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
+
 
 jobs:
-  push:
-    name: Push changes to remote (internal) repository
+  sync-back:
+
+    # Only run if we're on github.com
+    if: contains(github.repositoryUrl, 'github.com')
+
+    name: Sync back
     runs-on: ubuntu-latest
+
     env:
-      INT_REMOTE_NAME: internal
-      INT_REPO_TOKEN: ${{ secrets.INT_PAT }}
-      INT_REPO_HOST: github.tools.sap
-      INT_OWNER_REPO: coDoc/contribution-guidelines
-      BRANCH: main
+      GIT_USER_NAME: github-actions
+      GIT_USER_EMAIL: github-actions@sap.com
+
+      SOURCE_OWNER_REPO: ${{ github.repository }}
+      SOURCE_REPO_NAME: ${{ github.event.repository.name }}
+      SOURCE_REPO_BRANCH: master
+      SOURCE_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SOURCE_REPO_HOST: github.com
+
+      TARGET_OWNER_REPO: coDoc/test
+      TARGET_REPO_NAME: test
+      TARGET_REPO_BRANCH: master
+      TARGET_REPO_TOKEN: ${{ secrets.INT_PAT }}
+      TARGET_REPO_HOST: github.tools.sap
 
     steps:
-      - name: Checkout repo
-        id: checkout
-        uses: actions/checkout@v2
-
-      - name: Push to internal
-        id: push
+      - name: Clone internal (target) repository
+        id: clone_internal
         run: |
-          git remote add ${{ env.INT_REMOTE_NAME}} https://x-access-token:${{ env.INT_REPO_TOKEN }}@${{ env.INT_REPO_HOST }}/${{ env.INT_OWNER_REPO }}.git
-          git pull ${{ env.INT_REMOTE_NAME}} ${{ env.BRANCH }} --rebase
-          git push ${{ env.INT_REMOTE_NAME}} ${{ env.BRANCH }}
+          git clone https://x-access-token:${{ env.TARGET_REPO_TOKEN }}@${{ env.TARGET_REPO_HOST }}/${{ env.TARGET_OWNER_REPO }}.git
+
+      - name: Add git configuration
+        if: ${{ success() }}
+        id: config_git
+        run: |
+          git config --local user.name ${{ env.GIT_USER_NAME }}
+          git config --local user.email ${{ env.GIT_USER_EMAIL }}
+        working-directory: ./${{ env.TARGET_REPO_NAME }}
+
+      - name: Add external (source) repo as remote and fetch
+        if: ${{ success() }}
+        id: add_remote
+        run: |
+          git remote add \
+            source https://x-access-token:${{ env.SOURCE_REPO_TOKEN }}@${{ env.SOURCE_REPO_HOST }}/${{ env.SOURCE_OWNER_REPO }}.git
+          git fetch --all
+        working-directory: ./${{ env.TARGET_REPO_NAME }}
+
+      - name: Merge external (source) repo/branch onto internal (target)
+        if: ${{ success() }}
+        id: merge_source_target
+        run: |
+          git merge \
+            source/${{ env.SOURCE_REPO_BRANCH }} \
+            --allow-unrelated-histories \
+            -X theirs \
+            -m "External -> Internal sync"
+        working-directory: ./${{ env.TARGET_REPO_NAME }}
+
+      - name: Push to origin (internal target)
+        if: ${{ success() }}
+        id: push_origin
+        run: |
+          git push origin ${{ env.TARGET_REPO_BRANCH }}
+        working-directory: ./${{ env.TARGET_REPO_NAME }}
+
+      - name: Clean up
+        if: ${{ always() }}
+        id: cleanup
+        run: |
+          rm -rf ${{ env.TARGET_REPO_NAME }}
