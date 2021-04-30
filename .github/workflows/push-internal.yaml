@@ -32,5 +32,5 @@ jobs:
         id: push
         run: |
           git remote add ${{ env.INT_REMOTE_NAME}} https://x-access-token:${{ env.INT_REPO_TOKEN }}@${{ env.INT_REPO_HOST }}/${{ env.INT_OWNER_REPO }}.git
-          git pull ${{ env.INT_REMOTE_NAME}} ${{ env.BRANCH }}
+          git pull ${{ env.INT_REMOTE_NAME}} ${{ env.BRANCH }} --rebase
           git push ${{ env.INT_REMOTE_NAME}} ${{ env.BRANCH }}
