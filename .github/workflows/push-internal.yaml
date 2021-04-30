@@ -1,0 +1,35 @@
+#######################################################################
+### This workflow pushes changes back to an internal mirror of this ###
+### repository, when changes are pushed to the main branch.         ###
+### This workflow must be run from within the source repo.          ###
+#######################################################################
+
+name: push-internal
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  push:
+    name: Push changes to remote (internal) repository
+    runs-on: ubuntu-latest
+    env:
+      INT_REMOTE_NAME: internal
+      INT_REPO_TOKEN: ${{ secrets.INT_PAT }}
+      INT_REPO_HOST: github.tools.sap
+      INT_OWNER_REPO: coDoc/contribution-guidelines
+      BRANCH: main
+
+    steps:
+      - name: Checkout repo
+        id: checkout
+        uses: actions/checkout@v2
+
+      - name: Push to internal
+        id: push
+        run: |
+          git remote add ${{ env.INT_REMOTE_NAME}} https://x-access-token:${{ env.INT_REPO_TOKEN }}@${{ env.INT_REPO_HOST }}/${{ env.INT_OWNER_REPO }}.git
+          git push ${{ env.INT_REMOTE_NAME}} ${{ env.BRANCH }}
