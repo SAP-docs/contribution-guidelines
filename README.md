@@ -12,14 +12,14 @@ There are no specific requirements to use this repository. You can view the cont
 
 This is a documentation repository, no download or installation is required.
 
-## Known issues
+## Known issues
 
 There are no known issues, but if you identify one you can raise it via the provision of feedback or the contribution of content, as described in the [`CONTRIBUTING.md`](CONTRIBUTING.md) file.
 
-## Contributing
+## Contributing
 
 Please refer to the [`CONTRIBUTING.md`](CONTRIBUTING.md) file.
 
-## License
+## License
 
 Copyright: 2021 SAP SE or an SAP affiliate company and contribution-guidelines contributors. This project is licensed under the Creative Commons Attribution 4.0 International license.
