@@ -34,9 +34,9 @@ jobs:
       SOURCE_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       SOURCE_REPO_HOST: github.com
 
-      TARGET_OWNER_REPO: coDoc/test
-      TARGET_REPO_NAME: test
-      TARGET_REPO_BRANCH: master
+      TARGET_OWNER_REPO: coDoc/contribution-guidelines
+      TARGET_REPO_NAME: contribution-guidelines
+      TARGET_REPO_BRANCH: main
       TARGET_REPO_TOKEN: ${{ secrets.INT_PAT }}
       TARGET_REPO_HOST: github.tools.sap
 
