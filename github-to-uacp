@@ -21,6 +21,8 @@ calluacp() {
   local url=$1
   local path=${2:-docs}
 
+  echo "URL is $URL"
+
   curl \
     --fail \
     --location \

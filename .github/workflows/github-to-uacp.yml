@@ -1,5 +1,6 @@
 name: github-to-uacp
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
