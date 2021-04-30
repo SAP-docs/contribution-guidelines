@@ -1,27 +1,27 @@
 deliverable:
 - buildname: _001
-  label: GitHub Support Project
+  label: Open Documentation Initiative
   language: en-US
   lastmodifiedby: dj.adams@sap.com
   loio: doc-contribution-guidelines
-  owner: i051221
-  product: GHSUPPORT
+  owner: i347491
+  product: OPENDOCS
   rootfile: upload.zip
   transtype: html5.uacp
-  shortdesc: Test shortdesc
-  version: CSIBuild
+  shortdesc: Contribution Guidelines
+  version: 1.0
   gh_edit_prefix: https://github.com/SAP-docs/contribution-guidelines/blob/main/docs/
 outputmeta:
-- product: GHSUPPORT
-  product_name: GitHub Support Project
+- product: OPENDOCS
+  product_name: Open Documentation Initiative
   product_sapid: null
-  version: CSIBuild
-  version_name: CSIBuild
+  version: 1.0
+  version_name: 1.0
   version_sapid: null
 mapref:
   - title: "SAP Documentation Contribution Guidelines"
     loio: "doc-contribution-guidelines"
-    shortdesc: "Learn contribution guidelines"
+    shortdesc: "Documentation contribution guidelines"
 nav:
   - title: "Contribution Guidelines"
     filename: "README.md"
