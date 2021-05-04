@@ -1,4 +1,1 @@
 *.swp
-_cdcout/
-node_modules/
-package-lock.json
