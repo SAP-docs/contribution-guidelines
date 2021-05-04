@@ -3,7 +3,7 @@ deliverable:
   label: Open Documentation Initiative
   language: en-US
   lastmodifiedby: dj.adams@sap.com
-  loio: doc-contribution-guidelines
+  loio: contribution-guidelines
   owner: i347491
   product: open-documentation-initiative
   rootfile: upload.zip
@@ -20,7 +20,7 @@ outputmeta:
   version_sapid: null
 mapref:
   - title: "SAP Documentation Contribution Guidelines"
-    loio: "doc-contribution-guidelines"
+    loio: "contribution-guidelines"
     shortdesc: "Documentation contribution guidelines"
 nav:
   - title: "Contribution Guidelines"
