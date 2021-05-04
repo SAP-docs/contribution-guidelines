@@ -5,14 +5,14 @@ deliverable:
   lastmodifiedby: dj.adams@sap.com
   loio: doc-contribution-guidelines
   owner: i347491
-  product: OPENDOCS
+  product: open-documentation-initiative
   rootfile: upload.zip
   transtype: html5.uacp
   shortdesc: Contribution Guidelines
   version: 1.0
   gh_edit_prefix: https://github.com/SAP-docs/contribution-guidelines/blob/main/docs/
 outputmeta:
-- product: OPENDOCS
+- product: open-documentation-initiative
   product_name: Open Documentation Initiative
   product_sapid: null
   version: 1.0
