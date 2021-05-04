@@ -11,4 +11,4 @@ To initiate a contribution, we recommend that you start from the corresponding d
 
 Please ensure you read and follow the [Contribution Guidelines](https://github.com/SAP-docs/contribution-guidelines), which are also available on the SAP Help Portal, before submitting your first contribution. <!--INSERT LINK-->
 
-In the context of content contribution, you will be directed to sign a Developer's Certificate of Origin (DCO) when you create your first pull request to this project. This happens in an automated fashion using the CLA Assistant.
+In the context of content contribution, you will be directed to sign a Developer's Certificate of Origin (DCO) when you create your first pull request to this project. This happens in an automated fashion.
