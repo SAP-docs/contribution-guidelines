@@ -1,6 +1,6 @@
 # Contributing
 
-In the context of SAP's Open Documentation Initiative, we are open to contributions to this documentation repository.
+We are open to contributions to this documentation repository.
 
 We recognize contributions in two forms:
 
