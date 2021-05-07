@@ -1,5 +1,8 @@
 # Contribution Guidelines
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/contribution-guidelines)](https://api.reuse.software/info/github.com/SAP-docs/contribution-guidelines)
+
+
 This repository contains the Contribution Guidelines documentation, which itself is released for external contributions. You can learn how to contribute by reading the [`CONTRIBUTING.md`](CONTRIBUTING.md) file.
 
 You can browse the documentation directly in the [`docs/`](docs/) directory in this repository, or read the content on the SAP Help Portal. <!--INSERT LINK-->
