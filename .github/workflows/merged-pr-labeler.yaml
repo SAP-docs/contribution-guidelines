@@ -31,7 +31,7 @@ jobs:
 
       - id: auth_gh
         name: Authenticate gh to repo
-        run: echo ${{ secrets.PAT }} | gh auth login --with-token
+        run: echo -n ${{ secrets.PAT }} | gh auth login --with-token
 
       - id: clean_clone
         name: Clean working area and clone repo
