@@ -40,7 +40,7 @@ jobs:
       TARGET_OWNER_REPO: ${{ secrets.TARGET_OWNER_REPO }}
       TARGET_REPO_NAME: contribution-guidelines
       TARGET_REPO_BRANCH: main
-      TARGET_REPO_TOKEN: ${{ secrets.PAT }}
+      TARGET_REPO_TOKEN: ${{ secrets.INT_PAT }}
       TARGET_REPO_HOST: ${{ secrets.TARGET_REPO_HOST }}
 
     steps:
