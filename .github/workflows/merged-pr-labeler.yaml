@@ -36,4 +36,6 @@ jobs:
           token: ${{ secrets.PAT }}
 
       - id: assign_label
-        run: gh pr edit ${{ github.event.number }} --add-label "$LABEL"
+        run: |
+          echo -n ${{ secrets.PAT }} | gh auth login --with-token
+          gh pr edit ${{ github.event.number }} --add-label "$LABEL"
