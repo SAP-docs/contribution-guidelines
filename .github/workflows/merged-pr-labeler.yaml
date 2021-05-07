@@ -24,7 +24,7 @@ jobs:
   assign-label-on-merge:
     if: github.event.pull_request.merged
     env:
-      LABEL: "cont"
+      LABEL: "contribution"
     runs-on: ubuntu-20.04
 
     steps:
