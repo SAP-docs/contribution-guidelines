@@ -1,12 +1,18 @@
-#######################################################################
-### This workflow brings changes back to an internal paired repo    ###
-### when changes are pushed to the main branch.                     ###
-###                                                                 ###
-### This workflow can be (and will only) run from within the source ###
-### repository i.e. on github.com.                                  ###
-#######################################################################
-
 name: Sync back to internal
+
+# What the execution context is:
+# The push (merge) of content into the trunk, when on github.com.
+
+# What it does:
+# Syncs changes back to a repo, which is paired with this one and
+# sits on an internally hosted GitHub Enterprise server.
+
+# Why we need it:
+# To be able to have content in the right place to send to the SAP
+# Help Portal.
+
+# What's important to know:
+# Uses a github-actions@sap.com identification for the git activities.
 
 on:
   workflow_dispatch:
@@ -14,15 +20,12 @@ on:
     branches:
       - main
 
-
 jobs:
+
   sync-back:
 
-    # Only run if we're on github.com
     if: contains(github.repositoryUrl, 'github.com')
-
-    name: Sync back
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     env:
       GIT_USER_NAME: github-actions
@@ -37,7 +40,7 @@ jobs:
       TARGET_OWNER_REPO: ${{ secrets.TARGET_OWNER_REPO }}
       TARGET_REPO_NAME: contribution-guidelines
       TARGET_REPO_BRANCH: main
-      TARGET_REPO_TOKEN: ${{ secrets.INT_PAT }}
+      TARGET_REPO_TOKEN: ${{ secrets.PAT }}
       TARGET_REPO_HOST: ${{ secrets.TARGET_REPO_HOST }}
 
     steps:
