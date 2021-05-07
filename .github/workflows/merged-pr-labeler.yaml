@@ -37,4 +37,3 @@ jobs:
 
       - id: assign_label
         run: gh pr edit ${{ github.event.number }} --add-label "$LABEL"
-        working-directory: ${{ github.event.repository.name }}
