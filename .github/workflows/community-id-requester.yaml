@@ -29,7 +29,7 @@ jobs:
     env:
       LABEL: "contribution"
     runs-on: ubuntu-20.04
-    if: github.event.label.name == 'contribution'
+    if: contains(github.repositoryUrl, 'github.com') && github.event.label.name == 'contribution'
 
     steps:
 
