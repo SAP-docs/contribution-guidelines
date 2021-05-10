@@ -32,7 +32,7 @@ Following the link takes you to the *New Issue* page in GitHub, specifically for
 
 For more details about providing feedback, see [How to Provide Feedback](feedback.md).
 
-### Contributing Content 
+### Contributing Content
 
 In some cases, we want to make it possible for you to contribute by providing small pieces of content. We're not asking or expecting you to come up with entirely new sections; rather, we're opening up the opportunity for you to contribute to SAP documentation by offering content such as additional information or context to increase accuracy, or even simply some rewording to improve clarity.
 to
@@ -57,7 +57,7 @@ You make your contribution. After you save your changes, you are guided through 
 For more details about contributing content, see [How to contribute content](content-contribution/README.md).
 
 
-## Keeping Track of Your Contributions
+## Keeping Track of Your Contributions
 
 You can use standard GitHub functionality to keep track of the issues your raise and the pull requests that you open, by using filters. See [Finding information in a repository](https://docs.github.com/en/github/managing-your-work-on-github/finding-information-in-a-repository) for more details.
 
