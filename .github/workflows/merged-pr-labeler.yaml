@@ -22,7 +22,7 @@ on:
 jobs:
 
   assign-label-on-merge:
-    if: github.event.pull_request.merged
+    if: contains(github.repositoryUrl, 'github.com') && github.event.pull_request.merged
     env:
       LABEL: "contribution"
     runs-on: ubuntu-20.04
