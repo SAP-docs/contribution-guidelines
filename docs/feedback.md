@@ -9,7 +9,7 @@ We use issues on GitHub, and when you follow a link to provide feedback on a par
 
 Ensure that when creating a new feedback issue, that you add your feedback to the issue without removing any of the technical information that is automatically added to the main feedback edit area (in other words, in the body of the issue). This technical information associates your feedback with the appropriate page in the documentation.
 
-Finally, metadata, such as labels, may also have already been preassigned to the issue. Refrain from removing any such metadata.
+Finally, metadata, such as labels, may also have already been preassigned to the issue.
 
 ## Providing Your Feedback
 
