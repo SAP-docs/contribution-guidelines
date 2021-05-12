@@ -1,0 +1,7 @@
+# See https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
+
+# Administration
+*       @SAP-docs/contribution-guidelines-admin
+
+# Documentation content
+docs/   @SAP-docs/contribution-guidelines-team
