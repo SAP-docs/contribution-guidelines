@@ -19,6 +19,7 @@ on:
 
 jobs:
   main:
+    if: contains(github.repositoryUrl, 'github.com')
     runs-on: ubuntu-20.04
     steps:
 
