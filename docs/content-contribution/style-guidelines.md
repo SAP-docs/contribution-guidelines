@@ -187,7 +187,7 @@ Standard Markdown supports blockquotes, often used to highlight additional infor
 
 ## Markdown Linting Rules
 
-We run checks on Markdown content when it is added or changed. This checking process, known as linting, runs automatically when pull requests are created, and help keep the use of markup consistent. The linting process is directed by rules that are used to check the Markdown. There are standard and custom rules.
+We run checks on Markdown content when it is added or changed using the [DavidAnson/markdownlint](https://github.com/DavidAnson/markdownlint) tool. This checking process, known as linting, runs automatically when pull requests are created, and help keep the use of markup consistent. The linting process is directed by rules that are used to check the Markdown. There are standard and custom rules.
 
 ### Standard Rules
 
