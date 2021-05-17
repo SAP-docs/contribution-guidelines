@@ -199,7 +199,6 @@ The standard rules used are described in the following table; the rule names ref
 |The syntax for links should be the right way round|`no-reversed-links`|
 |There must be a space after the hash or hashes on a heading|`no-missing-space-atx`|
 |There must be only a single space after the hash or hashes on a heading|`no-multiple-space-atx`|
-|Headings should be surrounded by blank lines|`blanks-around-headings`|
 |Lists should be surrounded by blank lines|`blanks-around-lists`|
 |Images should have alternate text|`no-alt-text`|
 
