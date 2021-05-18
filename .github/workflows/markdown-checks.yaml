@@ -17,6 +17,7 @@ on:
   workflow_dispatch:
   pull_request:
     branches: [main]
+    paths: 'docs/**'
 
 jobs:
   main:
