@@ -98,14 +98,14 @@ Use backticks (\`) for field names, and field values.
 
 ## Code Snippet Formatting
 
-### Don't include the command prompt
+### Don't Include the Command Prompt
 
 |  Do  | Don't |
 |:---|:---|
 | `cf marketplace`  | `$ cf marketplace` |
 
 
-### Separate commands from output
+### Separate Commands From Output
 
 > ### Example
 >
