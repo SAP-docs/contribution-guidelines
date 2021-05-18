@@ -8,7 +8,7 @@ Following these guidelines makes collaboration flow more smoothly and productive
 
 - Before your first contribution, ensure you've completed the Contributor License Agreement (CLA) process, described in [The Contributor License Agreement process](cla.md).
 
-- Try to provide as much contextual information in your issue or pull request as you can. This helps your counterpart understand what the feedback or change is, and why you think it's important.
+- Try to provide as much contextual information in your issue or pull request as you can. This helps your counterpart on the SAP documentation team reviewing your request understand what the feedback or suggested change is, and why you think it's important.
 
 - Be respectful of your collaborators and treat them as you would treat any work colleague or team mate. See the [Code of Conduct](code-of-conduct.md) for more information.
 
