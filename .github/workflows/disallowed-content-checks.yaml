@@ -1,7 +1,8 @@
 name: Disallowed content checker
 
 # What the execution context is:
-# A pull request on the main branch.
+# A pull request on the main branch. Only relevant for users who
+# are not members of the admin team for this repository.
 
 # What it does:
 # Checks to see if there are any files included in the pull request
@@ -15,7 +16,9 @@ name: Disallowed content checker
 # What's important to know:
 # The filter used in the check_files_changed step is a negated one,
 # i.e. notice the use of the '!'. Read the filter like this: "The
-# disallowed files are any that DON'T match docs/**".
+# disallowed files are any that DON'T match docs/**". The membership
+# check is for the team defined in the env var in the step (currently
+# this is the '<repo>-admin' team.
 
 on:
   pull_request:
@@ -26,8 +29,27 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
 
+      - id: checkout
+        name: Check out the repo
+        uses: actions/checkout@v2
+
+      - id: auth_gh
+        name: Authenticate gh to repo
+        run: echo -n ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
+
+      - id: check_membership
+        name: Check team membership of PR author
+        env:
+          team: 'admin'
+        run: |
+          IFS='/' read -r owner repository <<< "$GITHUB_REPOSITORY"
+          if gh api "/orgs/$owner/teams/${repository}-${team}/memberships/$GITHUB_ACTOR"; then
+            echo "is_team_member=true" >> $GITHUB_ENV
+          fi
+
       - id: check_files_changed
         name: Checks if disallowed content has been changed
+        if: env.is_team_member != 'true'
         uses: dorny/paths-filter@v2
         with:
           list-files: 'shell'
@@ -35,18 +57,8 @@ jobs:
             disallowed:
               - '!docs/**'
 
-      - id: checkout
-        name: Check out the repo
-        if: steps.check_files_changed.outputs.disallowed == 'true'
-        uses: actions/checkout@v2
-
-      - id: auth_gh
-        name: Authenticate gh to repo
-        if: steps.check_files_changed.outputs.disallowed == 'true'
-        run: echo -n ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
-
       - id: comment_on_disallowed
-        if: steps.check_files_changed.outputs.disallowed == 'true'
+        if: env.is_team_member != 'true' && steps.check_files_changed.outputs.disallowed == 'true'
         env:
           DOCS_LOC: "/${{ github.repository }}/tree/${{ github.base_ref }}/docs"
           REVERT_COMMAND: '`git checkout origin/main <filename>`'
