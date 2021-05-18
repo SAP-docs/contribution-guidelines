@@ -18,7 +18,7 @@ Markdown has syntax to mark up various aspects of a document, aspects such as te
 
 ### Text Emphasis and Usage
 
-Headings in a document are introduced by `#` characters at the start of the line. The more characters, the lower the heading level.
+Headings in a document are introduced by `#` characters at the start of the line. The more '#' characters, the lower the heading level.
 
 ```markdown
 # Top level heading (equates to <h1> in HTML)
