@@ -1,6 +1,6 @@
 # The Overall Process
 
-This section describes the overall process content contributions based on pull requests. For a high-level view of contributions, see [Contributing to SAP Documentation](../contributing.md).
+This section describes the overall process for content contributions based on pull requests. For a high-level view of contributions, see [Contributing to SAP Documentation](../contributing.md).
 
 ## Starting Point
 
