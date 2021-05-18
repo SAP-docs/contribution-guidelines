@@ -35,7 +35,7 @@ jobs:
 
       - id: auth_gh
         name: Authenticate gh to repo
-        run: echo -n ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
+        run: echo -n ${{ secrets.SAPDOCS_Q_PAT_REPO_READORG }} | gh auth login --with-token
 
       - id: check_membership
         name: Check team membership of PR author
