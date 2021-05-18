@@ -206,4 +206,4 @@ For more information on these rules, refer to the [Markdown linting rules docume
 
 There are custom rules that can be used; these rules are implemented with custom extensions used with the linting tool. Currently there is only a single custom rule in use:
 
-* Headings should be written using title case.
+* Headings should be written using title case (via the [markdownlint-rule-titlecase](https://www.npmjs.com/package/markdownlint-rule-titlecase) package).
