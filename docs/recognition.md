@@ -8,7 +8,7 @@ In [SAP Community][sap-community] there are two badges relating to community con
 
 * **Documentation feedback contribution** badge: Earn this badge when you provide feedback that leads to an improvement in the documentation.
 
-* **Documentation content contribution** badge: Earn this badge when you contribute content using the pull request method. The pull request has to be merged and included in the documentation.
+* **Documentation content contribution** badge: Earn this badge when you contribute content using the pull request method. The pull request has to be merged and included in the documentation before this badge is awarded.
 
 ## Your SAP Community Profile
 
