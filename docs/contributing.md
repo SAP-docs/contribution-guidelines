@@ -35,7 +35,7 @@ For more details about providing feedback, see [How to Provide Feedback](feedbac
 ### Contributing Content
 
 In some cases, we want to make it possible for you to contribute by providing small pieces of content. We're not asking or expecting you to come up with entirely new sections; rather, we're opening up the opportunity for you to contribute to SAP documentation by offering content such as additional information or context to increase accuracy, or even simply some rewording to improve clarity.
-to
+
 If you spot something that's missing, incorrect, lacking clarity or requiring more context, you can of course provide feedback via an issue, and ask us to address it. But with content contribution, you have the opportunity to collaborate with us by adding that missing information, providing that clarification, or correcting that mistake.
 
 Where content contribution is available, you'll see a link like this:
@@ -59,7 +59,7 @@ For more details about contributing content, see [How to contribute content](con
 
 ## Keeping Track of Your Contributions
 
-You can use standard GitHub functionality to keep track of the issues your raise and the pull requests that you open, by using filters. See [Finding information in a repository](https://docs.github.com/en/github/managing-your-work-on-github/finding-information-in-a-repository) for more details.
+You can use standard GitHub functionality to keep track of the issues you raise and the pull requests that you open, by using filters. See [Finding information in a repository](https://docs.github.com/en/github/managing-your-work-on-github/finding-information-in-a-repository) for more details.
 
 You can also stay informed, by using notifications. See [Setting up notifications](https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/setting-up-notifications) to find out how.
 
