@@ -2,7 +2,7 @@
 
 [Markdown][markdown] is a lightweight markup language that is simple enough to master and can be edited in any text editor. In order to make it as easy as possible for you to collaborate with us, and offer contributions of content, the SAP documentation sources are presented in Markdown.
 
-## Learning from Examples
+## Learning From Examples
 
 Even more important than being simple to master, Markdown is also easy to read. This has immediate benefits. Most importantly for collaborating with us on documentation is that when editing the source for a particular page of SAP documentation, you're able to view the Markdown source directly. This helps enormously because you can see how the different Markdown elements are used, and where, and these can become examples for you to build upon.
 

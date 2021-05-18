@@ -98,14 +98,14 @@ Use backticks (\`) for field names, and field values.
 
 ## Code Snippet Formatting
 
-### Don't include the command prompt
+### Don't Include the Command Prompt
 
 |  Do  | Don't |
 |:---|:---|
 | `cf marketplace`  | `$ cf marketplace` |
 
 
-### Separate commands from output
+### Separate Commands From Output
 
 > ### Example
 >
@@ -184,3 +184,28 @@ Standard Markdown supports blockquotes, often used to highlight additional infor
   > Do not manually alter localization files. Doing so may cause unpredictable results, including data loss.
 
 </details>
+
+## Markdown Linting Rules
+
+We run checks on Markdown content when it is added or changed using the [DavidAnson/markdownlint](https://github.com/DavidAnson/markdownlint) tool. This checking process, known as linting, runs automatically when pull requests are created, and help keep the use of markup consistent. The linting process is directed by rules that are used to check the Markdown. There are standard and custom rules.
+
+### Standard Rules
+
+The standard rules used are described in the following table; the rule names refer to the technical identifiers used in the configuration.
+
+|Rule Description|Rule Name|
+|-|-|
+|Heading levels should only increment by one level at a time|`heading-increment`|
+|The syntax for links should be the right way round|`no-reversed-links`|
+|There must be a space after the hash or hashes on a heading|`no-missing-space-atx`|
+|There must be only a single space after the hash or hashes on a heading|`no-multiple-space-atx`|
+|Lists should be surrounded by blank lines|`blanks-around-lists`|
+|Images should have alternate text|`no-alt-text`|
+
+For more information on these rules, refer to the [Markdown linting rules documentation](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md).
+
+### Custom Rules
+
+There are custom rules that can be used; these rules are implemented with custom extensions used with the linting tool. Currently there is only a single custom rule in use:
+
+* Headings should be written using title case.
