@@ -14,7 +14,7 @@ Following these guidelines makes collaboration flow more smoothly and productive
 
 - While most things are covered in the general contribution guidelines, check if there are additional guidelines in the `CONTRIBUTING.md` file of the repository to which you're contributing.
 
-- Be patient with the contribution process. We want this to be a fruitful and open collaboration on SAP documentation generally. See [What to Expect](what-to-expect.md) for more information, and if you have any feedback on the process in general, please let us know by creating an issue in the [Collaboration Guidelines repository](https://github.com/SAP-docs/collaboration-guidelines).
+- Be patient with the contribution process. We want this to be a fruitful and open collaboration on SAP documentation generally. See [What to Expect](what-to-expect.md) for more information, and if you have any feedback on the process in general, please let us know by creating an issue in the [Collaboration Guidelines repository](https://github.com/SAP-docs/contribution-guidelines).
 
 - Remember that this collaborative process is focused on making SAP documentation the best it can be. It is not for raising issues about functionality, or problems in use or deployment of what's described in the documentation.
 
