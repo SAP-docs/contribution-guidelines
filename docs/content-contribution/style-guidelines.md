@@ -199,8 +199,6 @@ The standard rules used are described in the following table; the rule names ref
 |The syntax for links should be the right way round|`no-reversed-links`|
 |There must be a space after the hash or hashes on a heading|`no-missing-space-atx`|
 |There must be only a single space after the hash or hashes on a heading|`no-multiple-space-atx`|
-|Lists should be surrounded by blank lines|`blanks-around-lists`|
-|Images should have alternate text|`no-alt-text`|
 
 For more information on these rules, refer to the [Markdown linting rules documentation](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md).
 
@@ -208,4 +206,4 @@ For more information on these rules, refer to the [Markdown linting rules docume
 
 There are custom rules that can be used; these rules are implemented with custom extensions used with the linting tool. Currently there is only a single custom rule in use:
 
-* Headings should be written using title case.
+* Headings should be written using title case (via the [markdownlint-rule-titlecase](https://www.npmjs.com/package/markdownlint-rule-titlecase) package).
