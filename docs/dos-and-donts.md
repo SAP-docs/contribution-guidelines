@@ -24,7 +24,7 @@ It's just as important to know what not to do, so here are some suggestions that
 
 - Don't use feedback, in the form of issues, to ask general or specific questions about the documentation, or to report problems with the product, service, or tool being described. There are other more appropriate channels for this (such as the [SAP Community Q&A][sap-community-q&a] and the [SAP Support Portal][sap-support-portal]).
 
-- Don't ask for new features, nor for enhancements or changes to existing features.
+- Don't ask for new product features, nor for enhancements or changes to existing product features.
 
 - Avoid bundling multiple changes to different areas of documentation in a single contribution. If you're changing a typo or use of a word or phrase that needs addressing in multiple places, then you should treat that as a single logical change, but different changes for different reasons should be in different issues or pull requests, even if these changes are all for the same SAP documentation page.
 
