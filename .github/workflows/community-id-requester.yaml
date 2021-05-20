@@ -14,7 +14,8 @@ name: SAP Community profile URL requester
 # What's important to know:
 # The label is specified at the start of the 'community-id-requester'
 # job as an environment variable LABEL, and also in the job-level condition.
-# Also, it adds a comment only after the first time the label is added.
+# Also, it adds a comment only after the first time the label is added, and
+# only if there are no other issues / pull requests already labeled.
 
 on:
   pull_request_target:
@@ -66,9 +67,16 @@ jobs:
           count=$(gh api --jq "[.[]|(select(.event==\"labeled\" and .label.name==\"$LABEL\"))] | length" $endpoint)
           echo "LABELADDITIONCOUNT=$count" >> $GITHUB_ENV
 
+      - id: count_previous_labeled_objects
+        name: Count how many other issues / pull requests are so labeled
+        run: |
+          querystring="is:${OBJECTTYPE}+label:${LABEL}+author:${GITHUB_ACTOR}+repo:${GITHUB_REPOSITORY}"
+          result=$(gh api --jq '.total_count' "/search/issues?q=$querystring")
+          echo "OBJECTCOUNT=$result" >> $GITHUB_ENV
+
       - id: requester
-        name: Ask for SAP Community profile URL if label added for first time
-        if: env.LABELADDITIONCOUNT == 1
+        name: Ask for SAP Community profile URL if label added for first time and no prev labeled issue / pr
+        if: env.LABELADDITIONCOUNT == 1 && env.OBJECTCOUNT <= 1
         run: |
           printf "Thank you for your valuable contribution, @${CONTRIBUTOR}! So that we can [recognize your contribution in SAP Community](https://github.com/SAP-docs/contribution-guidelines/blob/main/docs/recognition.md), please tell us your SAP Community profile URL in a reply to this comment; don't include any other text, just the URL on its own, like this:\n\n\`\`\`\nhttps://people.sap.com/your-user-id\n\`\`\`\n\nThanks!" \
           | gh $OBJECTTYPE comment $OBJECTNR --body-file -
