@@ -75,8 +75,7 @@ jobs:
           querystring="is:${OBJECTTYPE}+label:${LABEL}+author:${CONTRIBUTOR}+repo:${GITHUB_REPOSITORY}"
           result=$(gh api --jq '.items[] | [.number, .title] | @tsv' "/search/issues?q=$querystring")
           echo "$result"
-          echo "OBJECTCOUNT=$(wc -l <<< $result)"
-          echo "OBJECTCOUNT=$(wc -l <<< $result)" >> $GITHUB_ENV
+          echo "OBJECTCOUNT=$(wc -l <<< $result)" | tee -a $GITHUB_ENV
 
       - id: requester
         name: Ask for SAP Community profile URL if label added for first time and no prev labeled issue / pr
