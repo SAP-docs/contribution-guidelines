@@ -50,10 +50,10 @@ jobs:
           markdownlint-cli markdownlint-rule-titlecase
 
     - id: run_linter
-      if: steps.check_files_changed.outputs.changed
+      if: steps.check_files_changed.outputs.changed_files
       name: Run linter with specific rules, on the docs/ content
       run: |
         npx markdownlint \
           --config .github/workflows/markdownlint/config.yaml \
           --rules markdownlint-rule-titlecase \
-          ${{ steps.check_files_changed.outputs.changed }}
+          ${{ steps.check_files_changed.outputs.changed_files }}
