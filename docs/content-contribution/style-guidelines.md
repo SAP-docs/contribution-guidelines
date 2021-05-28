@@ -16,7 +16,7 @@ This document outlines some style guidelines that we recommend when contributing
 
 ## Section Headings
 
-If you want to modify or create a new section heading, we recommend title case - capitalizing the first letter of each word except conjunctions and prepositions. For more information on title case, see the corresponding [Wikipedia article](https://en.wikipedia.org/wiki/Title_case).
+If you want to modify or create a new section heading, we recommend title case - capitalizing the first letter of each word except conjunctions and prepositions. For more information on title case, see the corresponding [Wikipedia article on title case](https://en.wikipedia.org/wiki/Title_case).
 
 ## Links
 
