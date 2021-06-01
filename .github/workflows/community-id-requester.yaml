@@ -38,7 +38,7 @@ jobs:
         name: Generate app installation token
         uses: machine-learning-apps/actions-app-token@0.21
         with:
-          APP_PEM: ${{ secrets.SAP_CODOC_APP_PEM }}
+          APP_PEM: ${{ secrets.SAP_CODOC_APP_PEM_BASE64 }}
           APP_ID: ${{ secrets.SAP_CODOC_APP_ID }}
 
       - id: checkout
