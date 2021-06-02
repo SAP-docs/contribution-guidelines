@@ -2,7 +2,7 @@ name: Disallowed content checker
 
 # What the execution context is:
 # A pull request on the main branch. Only relevant for users who
-# are not members of the admin team for this repository.
+# don't have admin access on the repository.
 
 # What it does:
 # Checks to see if there are any files included in the pull request
@@ -16,9 +16,7 @@ name: Disallowed content checker
 # What's important to know:
 # The filter used in the check_files_changed step is a negated one,
 # i.e. notice the use of the '!'. Read the filter like this: "The
-# disallowed files are any that DON'T match docs/**". The membership
-# check is for the team defined in the env var in the step (currently
-# this is the '<repo>-admin' team.
+# disallowed files are any that DON'T match docs/**". 
 
 on:
   pull_request_target:
