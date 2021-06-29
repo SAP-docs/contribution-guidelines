@@ -2,13 +2,6 @@
 
 This document outlines some style guidelines that we recommend when contributing content in Markdown. They are not mandatory, but they help us to include your contribution more easily.
 
-* [Language](#language)
-* [Section Headings](#section-headings)
-* [Links](#links)
-* [Formatting of Inline Elements](#formatting-of-inline-elements)
-* [Code Snippet Formatting](#code-snippet-formatting)
-* [Note Types](#note-types)
-
 ## Language
 
 * Use US English.
