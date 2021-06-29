@@ -194,7 +194,7 @@ We run checks on Markdown content when it is added or changed using the [DavidAn
 The standard rules used are described in the following table; the rule names refer to the technical identifiers used in the configuration.
 
 |Rule Description|Rule Name|
-|-|-|
+|:---|:---|
 |Heading levels should only increment by one level at a time|`heading-increment`|
 |The syntax for links should be the right way round|`no-reversed-links`|
 |There must be a space after the hash or hashes on a heading|`no-missing-space-atx`|
