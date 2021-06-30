@@ -5,7 +5,7 @@
 
 This repository contains the Contribution Guidelines documentation, which itself is released for external contributions. You can learn how to contribute by reading the [`CONTRIBUTING.md`](CONTRIBUTING.md) file.
 
-You can browse the documentation directly in the [`docs/`](docs/) directory in this repository, or read the content on the SAP Help Portal. <!--INSERT LINK-->
+You can browse the documentation directly in the [`docs/`](docs/) directory in this repository, or read the content on the [SAP Help Portal](https://help.sap.com/viewer/contribution-guidelines/1.0/en-US/readme.html?q=contribution%20guidelines).
 
 ## Requirements
 
