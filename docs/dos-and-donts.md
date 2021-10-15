@@ -28,7 +28,7 @@ It's just as important to know what not to do, so here are some suggestions that
 
 - Avoid bundling multiple changes to different areas of documentation in a single contribution. If you're changing a typo or use of a word or phrase that needs addressing in multiple places, then you should treat that as a single logical change, but different changes for different reasons should be in different issues or pull requests, even if these changes are all for the same SAP documentation page.
 
-- Don't be despondent if your contribution is not accepted or actioned. While all contributions are assessed, it's likely that not all will be accepted.
+- Don't be disappointed if your contribution is not accepted or actioned. While all contributions are assessed, it's likely that not all will be accepted.
 
 - Don't be discouraged if someone disagrees with your viewpoint. While SAP documentation strives to be objective, there are many places in the documentation process that are subjective, and open to debate. When there is a disagreement, remember that it is an opportunity for all involved to learn.
 
