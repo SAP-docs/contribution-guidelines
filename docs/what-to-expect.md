@@ -4,7 +4,7 @@ Collaboration works better when expectations are understood all round. We want y
 
 ## Initial Assessment
 
-After you provide feedback in the form of an issue, or after you offer content contribution via a pull request, we make an initial assessment to check that it's appropriate and to assign the appropriate documentation team members. In addition,  we will assign labels that describe and categorize the contribution.
+After you provide feedback in the form of an issue, or after you offer content contribution via a pull request, we make an initial assessment to check that it's relevant and to assign the appropriate documentation team members. In addition,  we will assign labels that describe and categorize the contribution.
 
 The initial assessment is typically done within two business days starting from when you submit the issue or pull request, but can take longer, depending on available resources and number of submissions currently being assessed.
 
