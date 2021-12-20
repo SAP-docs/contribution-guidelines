@@ -12,7 +12,8 @@ module.exports = {
     let prevLevel = 0;
     filterTokens(params, "heading_open", function forToken(token) {
       const level = Number.parseInt(token.tag.slice(1), 10);
-      if ((! token.line.match(/^> ?/)) && prevLevel && (level > prevLevel)) {
+      if (token.line.match(/^\s*> ?/)) return;
+      if (prevLevel && (level > prevLevel)) {
         addErrorDetailIf(onError, token.lineNumber,
           "h" + (prevLevel + 1), "h" + level);
       }
