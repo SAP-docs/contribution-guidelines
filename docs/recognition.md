@@ -4,7 +4,7 @@ In addition to the many [missions and badges][missions-badges] already available
 
 ## Badges
 
-In [SAP Community][sap-community] there are two badges relating to community contributions to documentation.
+In [SAP Community][sap-community] there are [two badges](https://community.sap.com/resources/missions-badges?q=documentation) relating to community contributions to documentation.
 
 * **Open Documentation Initiative – Provide Feedback** badge: Earn this badge when you provide feedback that leads to an improvement in the documentation.
 
