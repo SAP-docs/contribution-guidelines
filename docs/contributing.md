@@ -16,6 +16,8 @@ Both feedback and content contributions are facilitated via mechanisms in GitHub
 
 This means that in order to contribute, you need a GitHub account. Read more about the signup process in the article [Signing up for a new GitHub account][github-signup]. A simple individual user account is enough.
 
+> Github offers managed user accounts (so-called _enterprise managed users_, or EMUs). With such users, collaboration is restricted to organizations of their enterprise, see [official GitHub documentation](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/using-enterprise-managed-users-for-iam/about-enterprise-managed-users#abilities-and-restrictions-of-managed-user-accounts). With such users, you can neither open issues nor propose changes through pull requests. In such a case, creating an additional personal GitHub account is the only way to collaborate in SAP repositories.
+
 ## Types of Contribution
 
 As mentioned earlier, there are two ways in which you can contribute to SAP documentation - either by providing feedback, or by contributing content.
