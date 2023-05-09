@@ -7,5 +7,5 @@ When preparing a content contribution, via a pull request, ensure that the appro
 The [SAP Terminology Database][sap-term], also known as SAPterm, gives you access to thousands of terminology entries in use at SAP. Use this database when preparing your content contribution. You may also find the [SAP Glossary][sap-glossary] useful.
 
 
-[sap-term]: http://www.sapterm.com/
+[sap-term]: https://www.sapterm.com/sap/bc/webdynpro/sap/sterm_webaccess#
 [sap-glossary]: https://help.sap.com/glossary/
