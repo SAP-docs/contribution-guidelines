@@ -20,7 +20,7 @@ This means that in order to contribute, you need a GitHub account. Read more abo
 
 ## Types of Contribution
 
-As mentioned earlier, there are two ways in which you can contribute to SAP documentation - either by providing feedback, or by contributing content. Both ways are available via the *Feedback* link near the top of the page.
+As mentioned earlier, there are two ways in which you can contribute to SAP documentation - either by providing feedback, or by contributing content. Both ways are available via the *Feedback* menu near the top of the page.
 
 ### Providing Feedback
 
