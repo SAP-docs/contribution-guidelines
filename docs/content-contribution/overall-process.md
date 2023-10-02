@@ -6,7 +6,7 @@ This section describes the overall process for content contributions based on pu
 
 The overall process for content contribution starts with you.
 
-You're reading documentation on [SAP Help Portal](http://help.sap.com). You come across something you're not sure is entirely accurate, or you've spotted a typo, or you think that there's a small addition or amendment that you can offer that would help clarify or otherwise add value to what's already there. So you look for the *Edit page* option via the *Feedback* menu in the function bar near the top of the page.
+You're reading documentation on [SAP Help Portal](http://help.sap.com). You come across something you're not sure is entirely accurate, or you've spotted a typo, or you think that there's a small addition or amendment that you can offer that would help clarify or otherwise add value to what's already there. So you look for the *Feedback > Edit page* option in the function bar near the top of the page.
 
 ![Content contribution link](../assets/content-contribution-link.png)
 

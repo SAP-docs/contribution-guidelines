@@ -20,13 +20,13 @@ This means that in order to contribute, you need a GitHub account. Read more abo
 
 ## Types of Contribution
 
-As mentioned earlier, there are two ways in which you can contribute to SAP documentation - either by providing feedback, or by contributing content. Both ways are available via the *Feedback* menu near the top of the page.
+As mentioned earlier, there are two ways in which you can contribute to SAP documentation - either by providing feedback, or by contributing content.
 
 ### Providing Feedback
 
 We value feedback on our documentation, and want to make it possible for you to do that in a simple but structured way.
 
-Where feedback is possible for a page, you'll see a *Create issue* option in the menu shown when you select the *Feedback* link.
+Where feedback is possible for a page, you'll see a *Feedback > Create issue* option via the function bar at the top of the page.
 
 ![Option to provide feedback](assets/feedback-link.png)
 
@@ -40,7 +40,7 @@ In some cases, we want to make it possible for you to contribute by providing sm
 
 If you spot something that's missing, incorrect, lacking clarity or requiring more context, you can of course provide feedback via an issue, and ask us to address it. But with content contribution, you have the opportunity to collaborate with us by adding that missing information, providing that clarification, or correcting that mistake.
 
-Where content contribution is available, you'll see an *Edit page* option in the *Feedback* menu.
+Where content contribution is available, you'll see a *Feedback > Edit page* option via the function bar at the top of the page.
 
 ![Option to contribute content](assets/content-contribution-link.png)
 
@@ -50,7 +50,7 @@ Briefly, here's what a typical pull request based content contribution workflow 
 
 **In the SAP Help Portal**
 
-You spot something on a page in the SAP Help Portal to which you wish to make a contibution, and you select the *Edit page* option.
+You spot something on a page in the SAP Help Portal to which you wish to make a contibution, and you select the *Feedback > Edit page* option.
 
 **In GitHub**
 
