@@ -20,15 +20,15 @@ This means that in order to contribute, you need a GitHub account. Read more abo
 
 ## Types of Contribution
 
-As mentioned earlier, there are two ways in which you can contribute to SAP documentation - either by providing feedback, or by contributing content.
+As mentioned earlier, there are two ways in which you can contribute to SAP documentation - either by providing feedback, or by contributing content. Both ways are available via the *Feedback* link near the top of the page.
 
 ### Providing Feedback
 
 We value feedback on our documentation, and want to make it possible for you to do that in a simple but structured way.
 
-Where feedback is possible for a page, you'll see a link inviting you to provide feedback.
+Where feedback is possible for a page, you'll see a *Create issue* option in the menu shown when you select the *Feedback* link.
 
-![Feedback link](assets/feedback-link.png)
+![Option to provide feedback](assets/feedback-link.png)
 
 Following the link takes you to the *New Issue* page in GitHub, specifically for the repository containing the SAP documentation content for which you want to provide feedback.
 
@@ -40,9 +40,9 @@ In some cases, we want to make it possible for you to contribute by providing sm
 
 If you spot something that's missing, incorrect, lacking clarity or requiring more context, you can of course provide feedback via an issue, and ask us to address it. But with content contribution, you have the opportunity to collaborate with us by adding that missing information, providing that clarification, or correcting that mistake.
 
-Where content contribution is available, you'll see a link like this:
+Where content contribution is available, you'll see an *Edit page* option in the menu shown when you select the *Feedback* link.
 
-![Content contribution link](assets/content-contribution-link.png)
+![Option to contribute content](assets/content-contribution-link.png)
 
 If you're already familiar with pull request based collaboration on GitHub, then this process will be familiar to you. If not, don't worry, it's straightforward, and the GitHub workflow infrastructure, combined with how we use it for collaboration on SAP documentation, makes the process easy for you to follow.
 
@@ -50,7 +50,7 @@ Briefly, here's what a typical pull request based content contribution workflow 
 
 **In the SAP Help Portal**
 
-You spot something on a page in the SAP Help Portal to which you wish to make a contibution, and you select the **Edit** link.
+You spot something on a page in the SAP Help Portal to which you wish to make a contibution, and you select the *Edit page* option.
 
 **In GitHub**
 
