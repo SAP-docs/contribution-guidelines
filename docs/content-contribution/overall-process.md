@@ -6,13 +6,13 @@ This section describes the overall process for content contributions based on pu
 
 The overall process for content contribution starts with you.
 
-1. You're reading documentation on [SAP Help Portal](http://help.sap.com). You come across something you're not sure is entirely accurate, or you've spotted a typo, or you think that there's a small addition or amendment that you can offer that would help clarify or otherwise add value to what's already there.
-
-2. You look for the **Edit** button in the function bar at the top of the page. If there is no **Edit** button, the documentation is not yet part of SAP's Open Documentation Initative.
+You're reading documentation on [SAP Help Portal](http://help.sap.com). You come across something you're not sure is entirely accurate, or you've spotted a typo, or you think that there's a small addition or amendment that you can offer that would help clarify or otherwise add value to what's already there. So you look for the *Feedback > Edit page* option in the function bar near the top of the page.
 
 ![Content contribution link](../assets/content-contribution-link.png)
 
-Great, you're all set to start.
+If there is no such option, the documentation is not yet part of SAP's Open Documentation Initiative.
+
+But if there is, then great, you're all set to start contributing.
 
 ## What's Next?
 
