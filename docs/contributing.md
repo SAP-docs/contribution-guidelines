@@ -40,7 +40,7 @@ In some cases, we want to make it possible for you to contribute by providing sm
 
 If you spot something that's missing, incorrect, lacking clarity or requiring more context, you can of course provide feedback via an issue, and ask us to address it. But with content contribution, you have the opportunity to collaborate with us by adding that missing information, providing that clarification, or correcting that mistake.
 
-Where content contribution is available, you'll see an *Edit page* option in the menu shown when you select the *Feedback* link.
+Where content contribution is available, you'll see an *Edit page* option in the *Feedback* menu.
 
 ![Option to contribute content](assets/content-contribution-link.png)
 
