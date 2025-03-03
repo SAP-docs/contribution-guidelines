@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: contribution-guidelines
-Upstream-Contact: DJ Adams (dj.adams@sap.com)
-Source: https://github.com/SAP-docs/contribution-guidelines
-
-Files: *
-Copyright: 2021 SAP SE or an SAP affiliate company and contribution-guidelines contributors
-License: CC-BY-4.0

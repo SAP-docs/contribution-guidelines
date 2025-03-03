@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "contribution-guidelines"
+SPDX-PackageSupplier = "DJ Adams (dj.adams@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/SAP-docs/contribution-guidelines"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2021 SAP SE or an SAP affiliate company and contribution-guidelines contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
