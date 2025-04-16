@@ -25,7 +25,7 @@ jobs:
   sync-back:
 
     if: contains(github.repositoryUrl, 'github.com')
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     env:
       GIT_USER_NAME: github-actions
